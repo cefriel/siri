@@ -52,4 +52,479 @@
 <http://purl.org/ontology/bibo/status> rdf:type owl:AnnotationProperty .
 
 
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#duration
+xsd:duration rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://knowledge.c-innovationhub.com/siri#hasAffectedElement
+:hasAffectedElement rdf:type owl:ObjectProperty ;
+                    rdfs:domain :PtSituationElement ;
+                    rdfs:range :AffectedElement .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasAlertCause
+:hasAlertCause rdf:type owl:ObjectProperty ;
+               rdfs:domain :PtSituationElement ;
+               rdfs:range :AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasFramedVehicleJourney
+:hasFramedVehicleJourney rdf:type owl:ObjectProperty ;
+                         rdfs:domain :MonitoredVehicleJourney ;
+                         rdfs:range :FramedVehicleJourney .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasLine
+:hasLine rdf:type owl:ObjectProperty ;
+         rdfs:domain :MonitoredVehicleJourney ;
+         rdfs:range <https://w3id.org/mobility/transmodel/journeys#Line> .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasMonitoredVehicleJourney
+:hasMonitoredVehicleJourney rdf:type owl:ObjectProperty ;
+                            rdfs:domain :VehicleActivity ;
+                            rdfs:range :MonitoredVehicleJourney .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasOccupancy
+:hasOccupancy rdf:type owl:ObjectProperty ;
+              rdfs:domain :MonitoredVehicleJourney ;
+              rdfs:range :Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasOperationalBlock
+:hasOperationalBlock rdf:type owl:ObjectProperty ;
+                     rdfs:domain :MonitoredVehicleJourney ;
+                     rdfs:range :OperationalBlock .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasOperator
+:hasOperator rdf:type owl:ObjectProperty ;
+             rdfs:domain :MonitoredVehicleJourney .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasSource
+:hasSource rdf:type owl:ObjectProperty ;
+           rdfs:domain :PtSituationElement ;
+           rdfs:range :Source .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasSourceType
+:hasSourceType rdf:type owl:ObjectProperty ;
+               rdfs:domain :Source ;
+               rdfs:range :SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasStopPointLocation
+:hasStopPointLocation rdf:type owl:ObjectProperty ;
+                      rdfs:domain :AffectedStopPoint ;
+                      rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#Point> .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasValidityPeriod
+:hasValidityPeriod rdf:type owl:ObjectProperty ;
+                   rdfs:domain :PtSituationElement ;
+                   rdfs:range :ValidityPeriod .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasVehicleLocation
+:hasVehicleLocation rdf:type owl:ObjectProperty ;
+                    rdfs:domain :MonitoredVehicleJourney ;
+                    rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#Point> .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasVerificationStatus
+:hasVerificationStatus rdf:type owl:ObjectProperty ;
+                       rdfs:domain :PtSituationElement ;
+                       rdfs:range :VerificationStatus .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://knowledge.c-innovationhub.com/siri#bearing
+:bearing rdf:type owl:DatatypeProperty ;
+         rdfs:domain :MonitoredVehicleJourney ;
+         rdfs:range xsd:float .
+
+
+###  https://knowledge.c-innovationhub.com/siri#blockRef
+:blockRef rdf:type owl:DatatypeProperty ;
+          rdfs:domain :OperationalBlock ;
+          rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#creationTime
+:creationTime rdf:type owl:DatatypeProperty ;
+              rdfs:domain :PtSituationElement ;
+              rdfs:range xsd:dateTime .
+
+
+###  https://knowledge.c-innovationhub.com/siri#dataFrameRef
+:dataFrameRef rdf:type owl:DatatypeProperty ;
+              rdfs:domain :FramedVehicleJourney ;
+              rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#datedVehicleJourneyRef
+:datedVehicleJourneyRef rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :FramedVehicleJourney ;
+                        rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#delay
+:delay rdf:type owl:DatatypeProperty ;
+       rdfs:domain :MonitoredVehicleJourney ;
+       rdfs:range xsd:duration .
+
+
+###  https://knowledge.c-innovationhub.com/siri#destinationAimedArrivalTime
+:destinationAimedArrivalTime rdf:type owl:DatatypeProperty ;
+                             rdfs:domain :MonitoredVehicleJourney ;
+                             rdfs:range xsd:dateTime .
+
+
+###  https://knowledge.c-innovationhub.com/siri#destinationName
+:destinationName rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :MonitoredVehicleJourney ;
+                 rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#destinationRef
+:destinationRef rdf:type owl:DatatypeProperty ;
+                rdfs:domain :MonitoredVehicleJourney ;
+                rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#directionRef
+:directionRef rdf:type owl:DatatypeProperty ;
+              rdfs:domain :MonitoredVehicleJourney ;
+              rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#endTime
+:endTime rdf:type owl:DatatypeProperty ;
+         rdfs:domain :ValidityPeriod ;
+         rdfs:range xsd:dateTime .
+
+
+###  https://knowledge.c-innovationhub.com/siri#lineRef
+:lineRef rdf:type owl:DatatypeProperty ;
+         rdfs:domain :AffectedLine ;
+         rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#operatorRef
+:operatorRef rdf:type owl:DatatypeProperty ;
+             rdfs:domain :AffectedOperator ;
+             rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#originAimedDepartureTime
+:originAimedDepartureTime rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :MonitoredVehicleJourney ;
+                          rdfs:range xsd:dateTime .
+
+
+###  https://knowledge.c-innovationhub.com/siri#originName
+:originName rdf:type owl:DatatypeProperty ;
+            rdfs:domain :MonitoredVehicleJourney ;
+            rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#originRef
+:originRef rdf:type owl:DatatypeProperty ;
+           rdfs:domain :MonitoredVehicleJourney ;
+           rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#planned
+:planned rdf:type owl:DatatypeProperty ;
+         rdfs:domain :PtSituationElement ;
+         rdfs:range xsd:boolean .
+
+
+###  https://knowledge.c-innovationhub.com/siri#publishedLineName
+:publishedLineName rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :MonitoredVehicleJourney ;
+                   rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#recordedAtTime
+:recordedAtTime rdf:type owl:DatatypeProperty ;
+                rdfs:domain :VehicleActivity ;
+                rdfs:range xsd:dateTime .
+
+
+###  https://knowledge.c-innovationhub.com/siri#startTime
+:startTime rdf:type owl:DatatypeProperty ;
+           rdfs:domain :ValidityPeriod ;
+           rdfs:range xsd:dateTime .
+
+
+###  https://knowledge.c-innovationhub.com/siri#stopPointRef
+:stopPointRef rdf:type owl:DatatypeProperty ;
+              rdfs:domain :AffectedStopPoint ;
+              rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#summary
+:summary rdf:type owl:DatatypeProperty ;
+         rdfs:domain :PtSituationElement ;
+         rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vehicleJourneyRef
+:vehicleJourneyRef rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :AffectedVehicleJourney ;
+                   rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vehicleMonitoringRef
+:vehicleMonitoringRef rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :VehicleActivity ;
+                      rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vehicleRef
+:vehicleRef rdf:type owl:DatatypeProperty ;
+            rdfs:domain :MonitoredVehicleJourney ;
+            rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#Point
+<http://www.w3.org/2003/01/geo/wgs84_pos#Point> rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AffectedElement
+:AffectedElement rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AffectedLine
+:AffectedLine rdf:type owl:Class ;
+              rdfs:subClassOf :AffectedElement .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AffectedOperator
+:AffectedOperator rdf:type owl:Class ;
+                  rdfs:subClassOf :AffectedElement .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AffectedPlace
+:AffectedPlace rdf:type owl:Class ;
+               rdfs:subClassOf <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ,
+                               :AffectedElement .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AffectedStopPoint
+:AffectedStopPoint rdf:type owl:Class ;
+                   rdfs:subClassOf :AffectedElement .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AffectedVehicleJourney
+:AffectedVehicleJourney rdf:type owl:Class ;
+                        rdfs:subClassOf :AffectedElement .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AlertCause
+:AlertCause rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney
+:FramedVehicleJourney rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney
+:MonitoredVehicleJourney rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#Occupancy
+:Occupancy rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#OperationalBlock
+:OperationalBlock rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#PtSituationElement
+:PtSituationElement rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#Source
+:Source rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#SourceType
+:SourceType rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#ValidityPeriod
+:ValidityPeriod rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#VehicleActivity
+:VehicleActivity rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#VerificationStatus
+:VerificationStatus rdf:type owl:Class .
+
+
+###  https://w3id.org/mobility/transmodel/journeys#Line
+<https://w3id.org/mobility/transmodel/journeys#Line> rdf:type owl:Class .
+
+
+###  https://w3id.org/mobility/transmodel/organisations#Operator
+<https://w3id.org/mobility/transmodel/organisations#Operator> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly
+:crushedStandingRoomOnly rdf:type owl:NamedIndividual ,
+                                  :Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#directReport
+:directReport rdf:type owl:NamedIndividual ,
+                       :SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#email
+:email rdf:type owl:NamedIndividual ,
+                :SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#empty
+:empty rdf:type owl:NamedIndividual ,
+                :Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fax
+:fax rdf:type owl:NamedIndividual ,
+              :SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#feed
+:feed rdf:type owl:NamedIndividual ,
+               :SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fewSeatsAvailable
+:fewSeatsAvailable rdf:type owl:NamedIndividual ,
+                            :Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#full
+:full rdf:type owl:NamedIndividual ,
+               :Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#manySeatsAvailable
+:manySeatsAvailable rdf:type owl:NamedIndividual ,
+                             :Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers
+:notAcceptingPassengers rdf:type owl:NamedIndividual ,
+                                 :Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#other
+:other rdf:type owl:NamedIndividual ,
+                :SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#pager
+:pager rdf:type owl:NamedIndividual ,
+                :SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#phone
+:phone rdf:type owl:NamedIndividual ,
+                :SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#post
+:post rdf:type owl:NamedIndividual ,
+               :SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#radio
+:radio rdf:type owl:NamedIndividual ,
+                :SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#seatsAvailable
+:seatsAvailable rdf:type owl:NamedIndividual ,
+                         :Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#standingAvailable
+:standingAvailable rdf:type owl:NamedIndividual ,
+                            :Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#standingRoomOnly
+:standingRoomOnly rdf:type owl:NamedIndividual ,
+                           :Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#text
+:text rdf:type owl:NamedIndividual ,
+               :SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#tv
+:tv rdf:type owl:NamedIndividual ,
+             :SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#undefined
+:undefined rdf:type owl:NamedIndividual ,
+                    :Occupancy ,
+                    :VerificationStatus .
+
+
+###  https://knowledge.c-innovationhub.com/siri#unknown
+:unknown rdf:type owl:NamedIndividual ,
+                  :Occupancy ,
+                  :VerificationStatus .
+
+
+###  https://knowledge.c-innovationhub.com/siri#unverified
+:unverified rdf:type owl:NamedIndividual ,
+                     :VerificationStatus .
+
+
+###  https://knowledge.c-innovationhub.com/siri#verified
+:verified rdf:type owl:NamedIndividual ,
+                   :VerificationStatus .
+
+
+###  https://knowledge.c-innovationhub.com/siri#verifiedAsDuplicate
+:verifiedAsDuplicate rdf:type owl:NamedIndividual ,
+                              :VerificationStatus .
+
+
+###  https://knowledge.c-innovationhub.com/siri#web
+:web rdf:type owl:NamedIndividual ,
+              :SourceType .
+
+
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

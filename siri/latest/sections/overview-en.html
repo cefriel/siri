@@ -1,4 +1,423 @@
 <h2 id="overv" class="list">SIRI ontology: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
 This ontology has the following classes and properties.</span>
-
+<h4>Classes</h4>
+<ul xmlns:extra="https://w3id.org/extra#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#AffectedLine"
+         title="https://knowledge.c-innovationhub.com/siri#AffectedLine">
+         <span>affected line</span>
+      </a>
+   </li>
+   <li>
+      <a href="#AffectedOperator"
+         title="https://knowledge.c-innovationhub.com/siri#AffectedOperator">
+         <span>affected operator</span>
+      </a>
+   </li>
+   <li>
+      <a href="#AffectedPlace"
+         title="https://knowledge.c-innovationhub.com/siri#AffectedPlace">
+         <span>affected place</span>
+      </a>
+   </li>
+   <li>
+      <a href="#AffectedStopPoint"
+         title="https://knowledge.c-innovationhub.com/siri#AffectedStopPoint">
+         <span>affected stop point</span>
+      </a>
+   </li>
+   <li>
+      <a href="#AffectedVehicleJourney"
+         title="https://knowledge.c-innovationhub.com/siri#AffectedVehicleJourney">
+         <span>affected vehicle journey</span>
+      </a>
+   </li>
+</ul><h4>Object Properties</h4><ul xmlns:extra="https://w3id.org/extra#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#hasAffectedElement"
+         title="https://knowledge.c-innovationhub.com/siri#hasAffectedElement">
+         <span>has affected element</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasAlertCause"
+         title="https://knowledge.c-innovationhub.com/siri#hasAlertCause">
+         <span>has alert cause</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasFramedVehicleJourney"
+         title="https://knowledge.c-innovationhub.com/siri#hasFramedVehicleJourney">
+         <span>has framed vehicle journey</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasLine"
+         title="https://knowledge.c-innovationhub.com/siri#hasLine">
+         <span>has line</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasMonitoredVehicleJourney"
+         title="https://knowledge.c-innovationhub.com/siri#hasMonitoredVehicleJourney">
+         <span>has monitored vehicle journey</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasOccupancy"
+         title="https://knowledge.c-innovationhub.com/siri#hasOccupancy">
+         <span>has occupancy</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasOperationalBlock"
+         title="https://knowledge.c-innovationhub.com/siri#hasOperationalBlock">
+         <span>has operational block</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasOperator"
+         title="https://knowledge.c-innovationhub.com/siri#hasOperator">
+         <span>has operator</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasSource"
+         title="https://knowledge.c-innovationhub.com/siri#hasSource">
+         <span>has source</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasSourceType"
+         title="https://knowledge.c-innovationhub.com/siri#hasSourceType">
+         <span>has source type</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasStopPointLocation"
+         title="https://knowledge.c-innovationhub.com/siri#hasStopPointLocation">
+         <span>has stop point location</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasValidityPeriod"
+         title="https://knowledge.c-innovationhub.com/siri#hasValidityPeriod">
+         <span>has validity period</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasVehicleLocation"
+         title="https://knowledge.c-innovationhub.com/siri#hasVehicleLocation">
+         <span>has vehicle location</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasVerificationStatus"
+         title="https://knowledge.c-innovationhub.com/siri#hasVerificationStatus">
+         <span>has verification status</span>
+      </a>
+   </li>
+</ul><h4>Data Properties</h4><ul xmlns:extra="https://w3id.org/extra#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#bearing"
+         title="https://knowledge.c-innovationhub.com/siri#bearing">
+         <span>bearing</span>
+      </a>
+   </li>
+   <li>
+      <a href="#blockRef"
+         title="https://knowledge.c-innovationhub.com/siri#blockRef">
+         <span>block ref</span>
+      </a>
+   </li>
+   <li>
+      <a href="#creationTime"
+         title="https://knowledge.c-innovationhub.com/siri#creationTime">
+         <span>creation time</span>
+      </a>
+   </li>
+   <li>
+      <a href="#dataFrameRef"
+         title="https://knowledge.c-innovationhub.com/siri#dataFrameRef">
+         <span>data frame ref</span>
+      </a>
+   </li>
+   <li>
+      <a href="#datedVehicleJourneyRef"
+         title="https://knowledge.c-innovationhub.com/siri#datedVehicleJourneyRef">
+         <span>dated vehicle journey ref</span>
+      </a>
+   </li>
+   <li>
+      <a href="#delay" title="https://knowledge.c-innovationhub.com/siri#delay">
+         <span>delay</span>
+      </a>
+   </li>
+   <li>
+      <a href="#destinationAimedArrivalTime"
+         title="https://knowledge.c-innovationhub.com/siri#destinationAimedArrivalTime">
+         <span>destination aimed arrival time</span>
+      </a>
+   </li>
+   <li>
+      <a href="#destinationName"
+         title="https://knowledge.c-innovationhub.com/siri#destinationName">
+         <span>destination name</span>
+      </a>
+   </li>
+   <li>
+      <a href="#destinationRef"
+         title="https://knowledge.c-innovationhub.com/siri#destinationRef">
+         <span>destination ref</span>
+      </a>
+   </li>
+   <li>
+      <a href="#directionRef"
+         title="https://knowledge.c-innovationhub.com/siri#directionRef">
+         <span>direction ref</span>
+      </a>
+   </li>
+   <li>
+      <a href="#endTime"
+         title="https://knowledge.c-innovationhub.com/siri#endTime">
+         <span>end time</span>
+      </a>
+   </li>
+   <li>
+      <a href="#lineRef"
+         title="https://knowledge.c-innovationhub.com/siri#lineRef">
+         <span>line ref</span>
+      </a>
+   </li>
+   <li>
+      <a href="#operatorRef"
+         title="https://knowledge.c-innovationhub.com/siri#operatorRef">
+         <span>operator ref</span>
+      </a>
+   </li>
+   <li>
+      <a href="#originAimedDepartureTime"
+         title="https://knowledge.c-innovationhub.com/siri#originAimedDepartureTime">
+         <span>origin aimed departure time</span>
+      </a>
+   </li>
+   <li>
+      <a href="#originName"
+         title="https://knowledge.c-innovationhub.com/siri#originName">
+         <span>origin name</span>
+      </a>
+   </li>
+   <li>
+      <a href="#originRef"
+         title="https://knowledge.c-innovationhub.com/siri#originRef">
+         <span>origin ref</span>
+      </a>
+   </li>
+   <li>
+      <a href="#planned"
+         title="https://knowledge.c-innovationhub.com/siri#planned">
+         <span>planned</span>
+      </a>
+   </li>
+   <li>
+      <a href="#publishedLineName"
+         title="https://knowledge.c-innovationhub.com/siri#publishedLineName">
+         <span>published line name</span>
+      </a>
+   </li>
+   <li>
+      <a href="#recordedAtTime"
+         title="https://knowledge.c-innovationhub.com/siri#recordedAtTime">
+         <span>recorded at time</span>
+      </a>
+   </li>
+   <li>
+      <a href="#startTime"
+         title="https://knowledge.c-innovationhub.com/siri#startTime">
+         <span>start time</span>
+      </a>
+   </li>
+   <li>
+      <a href="#stopPointRef"
+         title="https://knowledge.c-innovationhub.com/siri#stopPointRef">
+         <span>stop point ref</span>
+      </a>
+   </li>
+   <li>
+      <a href="#summary"
+         title="https://knowledge.c-innovationhub.com/siri#summary">
+         <span>summary</span>
+      </a>
+   </li>
+   <li>
+      <a href="#vehicleJourneyRef"
+         title="https://knowledge.c-innovationhub.com/siri#vehicleJourneyRef">
+         <span>vehicle journey ref</span>
+      </a>
+   </li>
+   <li>
+      <a href="#vehicleMonitoringRef"
+         title="https://knowledge.c-innovationhub.com/siri#vehicleMonitoringRef">
+         <span>vehicle monitoring ref</span>
+      </a>
+   </li>
+   <li>
+      <a href="#vehicleRef"
+         title="https://knowledge.c-innovationhub.com/siri#vehicleRef">
+         <span>vehicle ref</span>
+      </a>
+   </li>
+</ul><h4>Named Individuals</h4><ul xmlns:extra="https://w3id.org/extra#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    class="hlist">
+   <li>
+      <a href="#crushedStandingRoomOnly"
+         title="https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly">
+         <span>crushed standing room only</span>
+      </a>
+   </li>
+   <li>
+      <a href="#directReport"
+         title="https://knowledge.c-innovationhub.com/siri#directReport">
+         <span>direct report</span>
+      </a>
+   </li>
+   <li>
+      <a href="#email" title="https://knowledge.c-innovationhub.com/siri#email">
+         <span>email</span>
+      </a>
+   </li>
+   <li>
+      <a href="#empty" title="https://knowledge.c-innovationhub.com/siri#empty">
+         <span>empty</span>
+      </a>
+   </li>
+   <li>
+      <a href="#fax" title="https://knowledge.c-innovationhub.com/siri#fax">
+         <span>fax</span>
+      </a>
+   </li>
+   <li>
+      <a href="#feed" title="https://knowledge.c-innovationhub.com/siri#feed">
+         <span>feed</span>
+      </a>
+   </li>
+   <li>
+      <a href="#fewSeatsAvailable"
+         title="https://knowledge.c-innovationhub.com/siri#fewSeatsAvailable">
+         <span>few seats available</span>
+      </a>
+   </li>
+   <li>
+      <a href="#full" title="https://knowledge.c-innovationhub.com/siri#full">
+         <span>full</span>
+      </a>
+   </li>
+   <li>
+      <a href="#manySeatsAvailable"
+         title="https://knowledge.c-innovationhub.com/siri#manySeatsAvailable">
+         <span>many seats available</span>
+      </a>
+   </li>
+   <li>
+      <a href="#notAcceptingPassengers"
+         title="https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers">
+         <span>not accepting passengers</span>
+      </a>
+   </li>
+   <li>
+      <a href="#other" title="https://knowledge.c-innovationhub.com/siri#other">
+         <span>other</span>
+      </a>
+   </li>
+   <li>
+      <a href="#pager" title="https://knowledge.c-innovationhub.com/siri#pager">
+         <span>pager</span>
+      </a>
+   </li>
+   <li>
+      <a href="#phone" title="https://knowledge.c-innovationhub.com/siri#phone">
+         <span>phone</span>
+      </a>
+   </li>
+   <li>
+      <a href="#post" title="https://knowledge.c-innovationhub.com/siri#post">
+         <span>post</span>
+      </a>
+   </li>
+   <li>
+      <a href="#radio" title="https://knowledge.c-innovationhub.com/siri#radio">
+         <span>radio</span>
+      </a>
+   </li>
+   <li>
+      <a href="#seatsAvailable"
+         title="https://knowledge.c-innovationhub.com/siri#seatsAvailable">
+         <span>seats available</span>
+      </a>
+   </li>
+   <li>
+      <a href="#standingAvailable"
+         title="https://knowledge.c-innovationhub.com/siri#standingAvailable">
+         <span>standing available</span>
+      </a>
+   </li>
+   <li>
+      <a href="#standingRoomOnly"
+         title="https://knowledge.c-innovationhub.com/siri#standingRoomOnly">
+         <span>standing room only</span>
+      </a>
+   </li>
+   <li>
+      <a href="#text" title="https://knowledge.c-innovationhub.com/siri#text">
+         <span>text</span>
+      </a>
+   </li>
+   <li>
+      <a href="#tv" title="https://knowledge.c-innovationhub.com/siri#tv">
+         <span>tv</span>
+      </a>
+   </li>
+   <li>
+      <a href="#undefined"
+         title="https://knowledge.c-innovationhub.com/siri#undefined">
+         <span>undefined</span>
+      </a>
+   </li>
+   <li>
+      <a href="#unknown"
+         title="https://knowledge.c-innovationhub.com/siri#unknown">
+         <span>unknown</span>
+      </a>
+   </li>
+   <li>
+      <a href="#unverified"
+         title="https://knowledge.c-innovationhub.com/siri#unverified">
+         <span>unverified</span>
+      </a>
+   </li>
+   <li>
+      <a href="#verified"
+         title="https://knowledge.c-innovationhub.com/siri#verified">
+         <span>verified</span>
+      </a>
+   </li>
+   <li>
+      <a href="#verifiedAsDuplicate"
+         title="https://knowledge.c-innovationhub.com/siri#verifiedAsDuplicate">
+         <span>verified as duplicate</span>
+      </a>
+   </li>
+   <li>
+      <a href="#web" title="https://knowledge.c-innovationhub.com/siri#web">
+         <span>web</span>
+      </a>
+   </li>
+</ul>

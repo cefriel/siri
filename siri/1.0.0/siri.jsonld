@@ -20,6 +20,12 @@
   "@id" : "http://purl.org/ontology/bibo/status",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#duration",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/contributor" : [ {
@@ -65,4 +71,586 @@
     "@language" : "en",
     "@value" : "1.0.0"
   } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedElement"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedOperator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedElement"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedElement"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedStopPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedElement"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedVehicleJourney",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedElement"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#OperationalBlock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#PtSituationElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#Source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#ValidityPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#VehicleActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#bearing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#blockRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#OperationalBlock"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#creationTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#PtSituationElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#dataFrameRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#datedVehicleJourneyRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#delay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#duration"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#destinationAimedArrivalTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#destinationName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#destinationRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#directReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#directionRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#empty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#endTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#ValidityPeriod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fax",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#feed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fewSeatsAvailable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#full",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasAffectedElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#PtSituationElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedElement"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasAlertCause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#PtSituationElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasFramedVehicleJourney",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/mobility/transmodel/journeys#Line"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasMonitoredVehicleJourney",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#VehicleActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasOccupancy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasOperationalBlock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#OperationalBlock"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasOperator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#PtSituationElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Source"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasSourceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasStopPointLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedStopPoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasValidityPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#PtSituationElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#ValidityPeriod"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasVehicleLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hasVerificationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#PtSituationElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#lineRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedLine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#manySeatsAvailable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#operatorRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedOperator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#originAimedDepartureTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#originName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#originRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#other",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#pager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#phone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#planned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#PtSituationElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#post",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#publishedLineName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#radio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#recordedAtTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#VehicleActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#seatsAvailable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#standingAvailable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#standingRoomOnly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#startTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#ValidityPeriod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#stopPointRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedStopPoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#summary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#PtSituationElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#text",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#tv",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#undefined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#unknown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#unverified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#vehicleJourneyRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AffectedVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#vehicleMonitoringRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#VehicleActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#vehicleRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#verified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#verifiedAsDuplicate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#web",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://w3id.org/mobility/transmodel/journeys#Line",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/mobility/transmodel/organisations#Operator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 } ]

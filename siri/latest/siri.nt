@@ -41,4 +41,418 @@
 # http://purl.org/ontology/bibo/status
 <http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#duration
+<http://www.w3.org/2001/XMLSchema#duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://knowledge.c-innovationhub.com/siri#hasAffectedElement
+<https://knowledge.c-innovationhub.com/siri#hasAffectedElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasAffectedElement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#PtSituationElement> .
+<https://knowledge.c-innovationhub.com/siri#hasAffectedElement> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/siri#AffectedElement> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasAlertCause
+<https://knowledge.c-innovationhub.com/siri#hasAlertCause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasAlertCause> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#PtSituationElement> .
+<https://knowledge.c-innovationhub.com/siri#hasAlertCause> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasFramedVehicleJourney
+<https://knowledge.c-innovationhub.com/siri#hasFramedVehicleJourney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasFramedVehicleJourney> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#hasFramedVehicleJourney> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasLine
+<https://knowledge.c-innovationhub.com/siri#hasLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasLine> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#hasLine> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/mobility/transmodel/journeys#Line> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasMonitoredVehicleJourney
+<https://knowledge.c-innovationhub.com/siri#hasMonitoredVehicleJourney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasMonitoredVehicleJourney> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#VehicleActivity> .
+<https://knowledge.c-innovationhub.com/siri#hasMonitoredVehicleJourney> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasOccupancy
+<https://knowledge.c-innovationhub.com/siri#hasOccupancy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasOccupancy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#hasOccupancy> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasOperationalBlock
+<https://knowledge.c-innovationhub.com/siri#hasOperationalBlock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasOperationalBlock> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#hasOperationalBlock> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/siri#OperationalBlock> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasOperator
+<https://knowledge.c-innovationhub.com/siri#hasOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasOperator> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasSource
+<https://knowledge.c-innovationhub.com/siri#hasSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasSource> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#PtSituationElement> .
+<https://knowledge.c-innovationhub.com/siri#hasSource> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/siri#Source> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasSourceType
+<https://knowledge.c-innovationhub.com/siri#hasSourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasSourceType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#Source> .
+<https://knowledge.c-innovationhub.com/siri#hasSourceType> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasStopPointLocation
+<https://knowledge.c-innovationhub.com/siri#hasStopPointLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasStopPointLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#AffectedStopPoint> .
+<https://knowledge.c-innovationhub.com/siri#hasStopPointLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#Point> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasValidityPeriod
+<https://knowledge.c-innovationhub.com/siri#hasValidityPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasValidityPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#PtSituationElement> .
+<https://knowledge.c-innovationhub.com/siri#hasValidityPeriod> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/siri#ValidityPeriod> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasVehicleLocation
+<https://knowledge.c-innovationhub.com/siri#hasVehicleLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasVehicleLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#hasVehicleLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#Point> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hasVerificationStatus
+<https://knowledge.c-innovationhub.com/siri#hasVerificationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/siri#hasVerificationStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#PtSituationElement> .
+<https://knowledge.c-innovationhub.com/siri#hasVerificationStatus> <http://www.w3.org/2000/01/rdf-schema#range> <https://knowledge.c-innovationhub.com/siri#VerificationStatus> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://knowledge.c-innovationhub.com/siri#bearing
+<https://knowledge.c-innovationhub.com/siri#bearing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#bearing> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#bearing> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# https://knowledge.c-innovationhub.com/siri#blockRef
+<https://knowledge.c-innovationhub.com/siri#blockRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#blockRef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#OperationalBlock> .
+<https://knowledge.c-innovationhub.com/siri#blockRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#creationTime
+<https://knowledge.c-innovationhub.com/siri#creationTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#creationTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#PtSituationElement> .
+<https://knowledge.c-innovationhub.com/siri#creationTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://knowledge.c-innovationhub.com/siri#dataFrameRef
+<https://knowledge.c-innovationhub.com/siri#dataFrameRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#dataFrameRef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#dataFrameRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#datedVehicleJourneyRef
+<https://knowledge.c-innovationhub.com/siri#datedVehicleJourneyRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#datedVehicleJourneyRef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#datedVehicleJourneyRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#delay
+<https://knowledge.c-innovationhub.com/siri#delay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#delay> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#delay> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#duration> .
+# 
+# https://knowledge.c-innovationhub.com/siri#destinationAimedArrivalTime
+<https://knowledge.c-innovationhub.com/siri#destinationAimedArrivalTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#destinationAimedArrivalTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#destinationAimedArrivalTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://knowledge.c-innovationhub.com/siri#destinationName
+<https://knowledge.c-innovationhub.com/siri#destinationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#destinationName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#destinationName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#destinationRef
+<https://knowledge.c-innovationhub.com/siri#destinationRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#destinationRef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#destinationRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#directionRef
+<https://knowledge.c-innovationhub.com/siri#directionRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#directionRef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#directionRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#endTime
+<https://knowledge.c-innovationhub.com/siri#endTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#endTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#ValidityPeriod> .
+<https://knowledge.c-innovationhub.com/siri#endTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://knowledge.c-innovationhub.com/siri#lineRef
+<https://knowledge.c-innovationhub.com/siri#lineRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#lineRef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#AffectedLine> .
+<https://knowledge.c-innovationhub.com/siri#lineRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#operatorRef
+<https://knowledge.c-innovationhub.com/siri#operatorRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#operatorRef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#AffectedOperator> .
+<https://knowledge.c-innovationhub.com/siri#operatorRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#originAimedDepartureTime
+<https://knowledge.c-innovationhub.com/siri#originAimedDepartureTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#originAimedDepartureTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#originAimedDepartureTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://knowledge.c-innovationhub.com/siri#originName
+<https://knowledge.c-innovationhub.com/siri#originName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#originName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#originName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#originRef
+<https://knowledge.c-innovationhub.com/siri#originRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#originRef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#originRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#planned
+<https://knowledge.c-innovationhub.com/siri#planned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#planned> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#PtSituationElement> .
+<https://knowledge.c-innovationhub.com/siri#planned> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# https://knowledge.c-innovationhub.com/siri#publishedLineName
+<https://knowledge.c-innovationhub.com/siri#publishedLineName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#publishedLineName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#publishedLineName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#recordedAtTime
+<https://knowledge.c-innovationhub.com/siri#recordedAtTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#recordedAtTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#VehicleActivity> .
+<https://knowledge.c-innovationhub.com/siri#recordedAtTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://knowledge.c-innovationhub.com/siri#startTime
+<https://knowledge.c-innovationhub.com/siri#startTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#startTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#ValidityPeriod> .
+<https://knowledge.c-innovationhub.com/siri#startTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://knowledge.c-innovationhub.com/siri#stopPointRef
+<https://knowledge.c-innovationhub.com/siri#stopPointRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#stopPointRef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#AffectedStopPoint> .
+<https://knowledge.c-innovationhub.com/siri#stopPointRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#summary
+<https://knowledge.c-innovationhub.com/siri#summary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#summary> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#PtSituationElement> .
+<https://knowledge.c-innovationhub.com/siri#summary> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#vehicleJourneyRef
+<https://knowledge.c-innovationhub.com/siri#vehicleJourneyRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#vehicleJourneyRef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#AffectedVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#vehicleJourneyRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#vehicleMonitoringRef
+<https://knowledge.c-innovationhub.com/siri#vehicleMonitoringRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#vehicleMonitoringRef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#VehicleActivity> .
+<https://knowledge.c-innovationhub.com/siri#vehicleMonitoringRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://knowledge.c-innovationhub.com/siri#vehicleRef
+<https://knowledge.c-innovationhub.com/siri#vehicleRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/siri#vehicleRef> <http://www.w3.org/2000/01/rdf-schema#domain> <https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> .
+<https://knowledge.c-innovationhub.com/siri#vehicleRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2003/01/geo/wgs84_pos#Point
+<http://www.w3.org/2003/01/geo/wgs84_pos#Point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://knowledge.c-innovationhub.com/siri#AffectedElement
+<https://knowledge.c-innovationhub.com/siri#AffectedElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://knowledge.c-innovationhub.com/siri#AffectedLine
+<https://knowledge.c-innovationhub.com/siri#AffectedLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/siri#AffectedLine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/siri#AffectedElement> .
+# 
+# https://knowledge.c-innovationhub.com/siri#AffectedOperator
+<https://knowledge.c-innovationhub.com/siri#AffectedOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/siri#AffectedOperator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/siri#AffectedElement> .
+# 
+# https://knowledge.c-innovationhub.com/siri#AffectedPlace
+<https://knowledge.c-innovationhub.com/siri#AffectedPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/siri#AffectedPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2003/01/geo/wgs84_pos#Point> .
+<https://knowledge.c-innovationhub.com/siri#AffectedPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/siri#AffectedElement> .
+# 
+# https://knowledge.c-innovationhub.com/siri#AffectedStopPoint
+<https://knowledge.c-innovationhub.com/siri#AffectedStopPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/siri#AffectedStopPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/siri#AffectedElement> .
+# 
+# https://knowledge.c-innovationhub.com/siri#AffectedVehicleJourney
+<https://knowledge.c-innovationhub.com/siri#AffectedVehicleJourney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://knowledge.c-innovationhub.com/siri#AffectedVehicleJourney> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://knowledge.c-innovationhub.com/siri#AffectedElement> .
+# 
+# https://knowledge.c-innovationhub.com/siri#AlertCause
+<https://knowledge.c-innovationhub.com/siri#AlertCause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney
+<https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney
+<https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://knowledge.c-innovationhub.com/siri#Occupancy
+<https://knowledge.c-innovationhub.com/siri#Occupancy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://knowledge.c-innovationhub.com/siri#OperationalBlock
+<https://knowledge.c-innovationhub.com/siri#OperationalBlock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://knowledge.c-innovationhub.com/siri#PtSituationElement
+<https://knowledge.c-innovationhub.com/siri#PtSituationElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://knowledge.c-innovationhub.com/siri#Source
+<https://knowledge.c-innovationhub.com/siri#Source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://knowledge.c-innovationhub.com/siri#SourceType
+<https://knowledge.c-innovationhub.com/siri#SourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://knowledge.c-innovationhub.com/siri#ValidityPeriod
+<https://knowledge.c-innovationhub.com/siri#ValidityPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://knowledge.c-innovationhub.com/siri#VehicleActivity
+<https://knowledge.c-innovationhub.com/siri#VehicleActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://knowledge.c-innovationhub.com/siri#VerificationStatus
+<https://knowledge.c-innovationhub.com/siri#VerificationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/mobility/transmodel/journeys#Line
+<https://w3id.org/mobility/transmodel/journeys#Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/mobility/transmodel/organisations#Operator
+<https://w3id.org/mobility/transmodel/organisations#Operator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly
+<https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#directReport
+<https://knowledge.c-innovationhub.com/siri#directReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#directReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#email
+<https://knowledge.c-innovationhub.com/siri#email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#empty
+<https://knowledge.c-innovationhub.com/siri#empty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#empty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fax
+<https://knowledge.c-innovationhub.com/siri#fax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#feed
+<https://knowledge.c-innovationhub.com/siri#feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fewSeatsAvailable
+<https://knowledge.c-innovationhub.com/siri#fewSeatsAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fewSeatsAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#full
+<https://knowledge.c-innovationhub.com/siri#full> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#full> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#manySeatsAvailable
+<https://knowledge.c-innovationhub.com/siri#manySeatsAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#manySeatsAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers
+<https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#other
+<https://knowledge.c-innovationhub.com/siri#other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#pager
+<https://knowledge.c-innovationhub.com/siri#pager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#pager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#phone
+<https://knowledge.c-innovationhub.com/siri#phone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#phone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#post
+<https://knowledge.c-innovationhub.com/siri#post> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#post> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#radio
+<https://knowledge.c-innovationhub.com/siri#radio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#radio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#seatsAvailable
+<https://knowledge.c-innovationhub.com/siri#seatsAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#seatsAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#standingAvailable
+<https://knowledge.c-innovationhub.com/siri#standingAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#standingAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#standingRoomOnly
+<https://knowledge.c-innovationhub.com/siri#standingRoomOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#standingRoomOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#text
+<https://knowledge.c-innovationhub.com/siri#text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#tv
+<https://knowledge.c-innovationhub.com/siri#tv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#tv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#undefined
+<https://knowledge.c-innovationhub.com/siri#undefined> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#undefined> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+<https://knowledge.c-innovationhub.com/siri#undefined> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#VerificationStatus> .
+# 
+# https://knowledge.c-innovationhub.com/siri#unknown
+<https://knowledge.c-innovationhub.com/siri#unknown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#unknown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+<https://knowledge.c-innovationhub.com/siri#unknown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#VerificationStatus> .
+# 
+# https://knowledge.c-innovationhub.com/siri#unverified
+<https://knowledge.c-innovationhub.com/siri#unverified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#unverified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#VerificationStatus> .
+# 
+# https://knowledge.c-innovationhub.com/siri#verified
+<https://knowledge.c-innovationhub.com/siri#verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#VerificationStatus> .
+# 
+# https://knowledge.c-innovationhub.com/siri#verifiedAsDuplicate
+<https://knowledge.c-innovationhub.com/siri#verifiedAsDuplicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#verifiedAsDuplicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#VerificationStatus> .
+# 
+# https://knowledge.c-innovationhub.com/siri#web
+<https://knowledge.c-innovationhub.com/siri#web> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#web> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

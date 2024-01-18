@@ -83,6 +83,849 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#duration -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#duration"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasAffectedElement -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasAffectedElement">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#PtSituationElement"/>
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/siri#AffectedElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasAlertCause -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasAlertCause">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#PtSituationElement"/>
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasFramedVehicleJourney -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasFramedVehicleJourney">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasLine -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasLine">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="https://w3id.org/mobility/transmodel/journeys#Line"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasMonitoredVehicleJourney -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasMonitoredVehicleJourney">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#VehicleActivity"/>
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasOccupancy -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasOccupancy">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasOperationalBlock -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasOperationalBlock">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/siri#OperationalBlock"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasOperator -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasOperator">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasSource -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasSource">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#PtSituationElement"/>
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/siri#Source"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasSourceType -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasSourceType">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#Source"/>
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasStopPointLocation -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasStopPointLocation">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#AffectedStopPoint"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasValidityPeriod -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasValidityPeriod">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#PtSituationElement"/>
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/siri#ValidityPeriod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasVehicleLocation -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasVehicleLocation">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hasVerificationStatus -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/siri#hasVerificationStatus">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#PtSituationElement"/>
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/siri#VerificationStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#bearing -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#bearing">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#blockRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#blockRef">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#OperationalBlock"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#creationTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#creationTime">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#PtSituationElement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#dataFrameRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#dataFrameRef">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#datedVehicleJourneyRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#datedVehicleJourneyRef">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#delay -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#delay">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#destinationAimedArrivalTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#destinationAimedArrivalTime">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#destinationName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#destinationName">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#destinationRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#destinationRef">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#directionRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#directionRef">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#endTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#endTime">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#ValidityPeriod"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#lineRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#lineRef">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#AffectedLine"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#operatorRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#operatorRef">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#AffectedOperator"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#originAimedDepartureTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#originAimedDepartureTime">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#originName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#originName">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#originRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#originRef">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#planned -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#planned">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#PtSituationElement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#publishedLineName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#publishedLineName">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#recordedAtTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#recordedAtTime">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#VehicleActivity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#startTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#startTime">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#ValidityPeriod"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#stopPointRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#stopPointRef">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#AffectedStopPoint"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#summary -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#summary">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#PtSituationElement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#vehicleJourneyRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#vehicleJourneyRef">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#AffectedVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#vehicleMonitoringRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#vehicleMonitoringRef">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#VehicleActivity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#vehicleRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/siri#vehicleRef">
+        <rdfs:domain rdf:resource="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#Point -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#AffectedElement -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#AffectedElement"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#AffectedLine -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#AffectedLine">
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/siri#AffectedElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#AffectedOperator -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#AffectedOperator">
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/siri#AffectedElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#AffectedPlace -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#AffectedPlace">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/siri#AffectedElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#AffectedStopPoint -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#AffectedStopPoint">
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/siri#AffectedElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#AffectedVehicleJourney -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#AffectedVehicleJourney">
+        <rdfs:subClassOf rdf:resource="https://knowledge.c-innovationhub.com/siri#AffectedElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#AlertCause -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#Occupancy -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#OperationalBlock -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#OperationalBlock"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#PtSituationElement -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#PtSituationElement"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#Source -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#Source"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#SourceType -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#ValidityPeriod -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#ValidityPeriod"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#VehicleActivity -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#VehicleActivity"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#VerificationStatus -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/siri#VerificationStatus"/>
+    
+
+
+    <!-- https://w3id.org/mobility/transmodel/journeys#Line -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mobility/transmodel/journeys#Line"/>
+    
+
+
+    <!-- https://w3id.org/mobility/transmodel/organisations#Operator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/mobility/transmodel/organisations#Operator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#directReport -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#directReport">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#email -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#email">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#empty -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#empty">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fax -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fax">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#feed -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#feed">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fewSeatsAvailable -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fewSeatsAvailable">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#full -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#full">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#manySeatsAvailable -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#manySeatsAvailable">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#other -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#other">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#pager -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#pager">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#phone -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#phone">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#post -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#post">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#radio -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#radio">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#seatsAvailable -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#seatsAvailable">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#standingAvailable -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#standingAvailable">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#standingRoomOnly -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#standingRoomOnly">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#text -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#text">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#tv -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#tv">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#undefined -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#undefined">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#VerificationStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#unknown -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#unknown">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#VerificationStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#unverified -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#unverified">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#VerificationStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#verified -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#verified">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#VerificationStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#verifiedAsDuplicate -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#verifiedAsDuplicate">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#VerificationStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#web -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#web">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 

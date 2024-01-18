@@ -1,26 +1,537 @@
 @prefix : <https://knowledge.c-innovationhub.com/siri#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix siri: <https://knowledge.c-innovationhub.com/siri#> .
+@prefix tmjou: <https://w3id.org/mobility/transmodel/journeys#> .
+@prefix tmorg: <https://w3id.org/mobility/transmodel/organisations#> .
 @prefix tangent: <https://knowledge.c-innovationhub.com/tangent/schema#> .
-@prefix sf: <http://www.opengis.net/ont/sf#> .
-@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @base <https://knowledge.c-innovationhub.com/siri#> .
 
 <https://knowledge.c-innovationhub.com/siri> rdf:type owl:Ontology ;
-        owl:versionIRI <https://knowledge.c-innovationhub.com/siri/1.0.0> ;
-        dct:contributor "The definition of the SIRI ontology is a result of the TANGENT project (Grant Agreement 881825), co-funded by the European Commission under the Horizon 2020 Framework Programme."@en ;
-        dct:creator "Valentina Carriero (Cefriel)"@en ,
-                    "Mario Scrocca (Cefriel)"@en ;
-        dct:description "SIRI (Standard Interface for Real-time Information) ontology."@en ;
-        dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-        dct:publisher "Cefriel"@en ;
-        dct:title "SIRI ontology"@en ;
-        <http://purl.org/ontology/bibo/status> "Published Ontology"@en ;
-        rdfs:comment "SIRI (Standard Interface for Real-time Information) ontology." ;
-        rdfs:label "SIRI ontology" ;
-        owl:versionInfo "1.0.0"@en .
+                                              owl:versionIRI <https://knowledge.c-innovationhub.com/siri/1.0.0> ;
+                                              dct:contributor "The definition of the SIRI ontology is a result of the TANGENT project (Grant Agreement 881825), co-funded by the European Commission under the Horizon 2020 Framework Programme."@en ;
+                                              dct:creator "Mario Scrocca (Cefriel)"@en ,
+                                                          "Valentina Carriero (Cefriel)"@en ;
+                                              dct:description "SIRI (Standard Interface for Real-time Information) ontology."@en ;
+                                              dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+                                              dct:publisher "Cefriel"@en ;
+                                              dct:title "SIRI ontology"@en ;
+                                              <http://purl.org/ontology/bibo/status> "Published Ontology"@en ;
+                                              rdfs:comment "SIRI (Standard Interface for Real-time Information) ontology." ;
+                                              rdfs:label "SIRI ontology" ;
+                                              owl:versionInfo "1.0.0"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/contributor
+dct:contributor rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+dct:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+dct:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+dct:license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+dct:publisher rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dct:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#duration
+xsd:duration rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://knowledge.c-innovationhub.com/siri#hasAffectedElement
+siri:hasAffectedElement rdf:type owl:ObjectProperty ;
+                        rdfs:domain siri:PtSituationElement ;
+                        rdfs:range siri:AffectedElement .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasAlertCause
+siri:hasAlertCause rdf:type owl:ObjectProperty ;
+                   rdfs:domain siri:PtSituationElement ;
+                   rdfs:range siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasFramedVehicleJourney
+siri:hasFramedVehicleJourney rdf:type owl:ObjectProperty ;
+                             rdfs:domain siri:MonitoredVehicleJourney ;
+                             rdfs:range siri:FramedVehicleJourney .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasLine
+siri:hasLine rdf:type owl:ObjectProperty ;
+             rdfs:domain siri:MonitoredVehicleJourney ;
+             rdfs:range tmjou:Line .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasMonitoredVehicleJourney
+siri:hasMonitoredVehicleJourney rdf:type owl:ObjectProperty ;
+                                rdfs:domain siri:VehicleActivity ;
+                                rdfs:range siri:MonitoredVehicleJourney .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasOccupancy
+siri:hasOccupancy rdf:type owl:ObjectProperty ;
+                  rdfs:domain siri:MonitoredVehicleJourney ;
+                  rdfs:range siri:Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasOperationalBlock
+siri:hasOperationalBlock rdf:type owl:ObjectProperty ;
+                         rdfs:domain siri:MonitoredVehicleJourney ;
+                         rdfs:range siri:OperationalBlock .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasOperator
+siri:hasOperator rdf:type owl:ObjectProperty ;
+                 rdfs:domain siri:MonitoredVehicleJourney .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasSource
+siri:hasSource rdf:type owl:ObjectProperty ;
+               rdfs:domain siri:PtSituationElement ;
+               rdfs:range siri:Source .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasSourceType
+siri:hasSourceType rdf:type owl:ObjectProperty ;
+                   rdfs:domain siri:Source ;
+                   rdfs:range siri:SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasStopPointLocation
+siri:hasStopPointLocation rdf:type owl:ObjectProperty ;
+                          rdfs:domain siri:AffectedStopPoint ;
+                          rdfs:range geo:Point .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasValidityPeriod
+siri:hasValidityPeriod rdf:type owl:ObjectProperty ;
+                       rdfs:domain siri:PtSituationElement ;
+                       rdfs:range siri:ValidityPeriod .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasVehicleLocation
+siri:hasVehicleLocation rdf:type owl:ObjectProperty ;
+                        rdfs:domain siri:MonitoredVehicleJourney ;
+                        rdfs:range geo:Point .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hasVerificationStatus
+siri:hasVerificationStatus rdf:type owl:ObjectProperty ;
+                           rdfs:domain siri:PtSituationElement ;
+                           rdfs:range siri:VerificationStatus .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://knowledge.c-innovationhub.com/siri#bearing
+siri:bearing rdf:type owl:DatatypeProperty ;
+             rdfs:domain siri:MonitoredVehicleJourney ;
+             rdfs:range xsd:float .
+
+
+###  https://knowledge.c-innovationhub.com/siri#blockRef
+siri:blockRef rdf:type owl:DatatypeProperty ;
+              rdfs:domain siri:OperationalBlock ;
+              rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#creationTime
+siri:creationTime rdf:type owl:DatatypeProperty ;
+                  rdfs:domain siri:PtSituationElement ;
+                  rdfs:range xsd:dateTime .
+
+
+###  https://knowledge.c-innovationhub.com/siri#dataFrameRef
+siri:dataFrameRef rdf:type owl:DatatypeProperty ;
+                  rdfs:domain siri:FramedVehicleJourney ;
+                  rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#datedVehicleJourneyRef
+siri:datedVehicleJourneyRef rdf:type owl:DatatypeProperty ;
+                            rdfs:domain siri:FramedVehicleJourney ;
+                            rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#delay
+siri:delay rdf:type owl:DatatypeProperty ;
+           rdfs:domain siri:MonitoredVehicleJourney ;
+           rdfs:range xsd:duration .
+
+
+###  https://knowledge.c-innovationhub.com/siri#destinationAimedArrivalTime
+siri:destinationAimedArrivalTime rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain siri:MonitoredVehicleJourney ;
+                                 rdfs:range xsd:dateTime .
+
+
+###  https://knowledge.c-innovationhub.com/siri#destinationName
+siri:destinationName rdf:type owl:DatatypeProperty ;
+                     rdfs:domain siri:MonitoredVehicleJourney ;
+                     rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#destinationRef
+siri:destinationRef rdf:type owl:DatatypeProperty ;
+                    rdfs:domain siri:MonitoredVehicleJourney ;
+                    rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#directionRef
+siri:directionRef rdf:type owl:DatatypeProperty ;
+                  rdfs:domain siri:MonitoredVehicleJourney ;
+                  rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#endTime
+siri:endTime rdf:type owl:DatatypeProperty ;
+             rdfs:domain siri:ValidityPeriod ;
+             rdfs:range xsd:dateTime .
+
+
+###  https://knowledge.c-innovationhub.com/siri#lineRef
+siri:lineRef rdf:type owl:DatatypeProperty ;
+             rdfs:domain siri:AffectedLine ;
+             rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#operatorRef
+siri:operatorRef rdf:type owl:DatatypeProperty ;
+                 rdfs:domain siri:AffectedOperator ;
+                 rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#originAimedDepartureTime
+siri:originAimedDepartureTime rdf:type owl:DatatypeProperty ;
+                              rdfs:domain siri:MonitoredVehicleJourney ;
+                              rdfs:range xsd:dateTime .
+
+
+###  https://knowledge.c-innovationhub.com/siri#originName
+siri:originName rdf:type owl:DatatypeProperty ;
+                rdfs:domain siri:MonitoredVehicleJourney ;
+                rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#originRef
+siri:originRef rdf:type owl:DatatypeProperty ;
+               rdfs:domain siri:MonitoredVehicleJourney ;
+               rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#planned
+siri:planned rdf:type owl:DatatypeProperty ;
+             rdfs:domain siri:PtSituationElement ;
+             rdfs:range xsd:boolean .
+
+
+###  https://knowledge.c-innovationhub.com/siri#publishedLineName
+siri:publishedLineName rdf:type owl:DatatypeProperty ;
+                       rdfs:domain siri:MonitoredVehicleJourney ;
+                       rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#recordedAtTime
+siri:recordedAtTime rdf:type owl:DatatypeProperty ;
+                    rdfs:domain siri:VehicleActivity ;
+                    rdfs:range xsd:dateTime .
+
+
+###  https://knowledge.c-innovationhub.com/siri#startTime
+siri:startTime rdf:type owl:DatatypeProperty ;
+               rdfs:domain siri:ValidityPeriod ;
+               rdfs:range xsd:dateTime .
+
+
+###  https://knowledge.c-innovationhub.com/siri#stopPointRef
+siri:stopPointRef rdf:type owl:DatatypeProperty ;
+                  rdfs:domain siri:AffectedStopPoint ;
+                  rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#summary
+siri:summary rdf:type owl:DatatypeProperty ;
+             rdfs:domain siri:PtSituationElement ;
+             rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vehicleJourneyRef
+siri:vehicleJourneyRef rdf:type owl:DatatypeProperty ;
+                       rdfs:domain siri:AffectedVehicleJourney ;
+                       rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vehicleMonitoringRef
+siri:vehicleMonitoringRef rdf:type owl:DatatypeProperty ;
+                          rdfs:domain siri:VehicleActivity ;
+                          rdfs:range xsd:string .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vehicleRef
+siri:vehicleRef rdf:type owl:DatatypeProperty ;
+                rdfs:domain siri:MonitoredVehicleJourney ;
+                rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#Point
+geo:Point rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AffectedElement
+siri:AffectedElement rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AffectedLine
+siri:AffectedLine rdf:type owl:Class ;
+                  rdfs:subClassOf siri:AffectedElement .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AffectedOperator
+siri:AffectedOperator rdf:type owl:Class ;
+                      rdfs:subClassOf siri:AffectedElement .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AffectedPlace
+siri:AffectedPlace rdf:type owl:Class ;
+                   rdfs:subClassOf geo:Point ,
+                                   siri:AffectedElement .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AffectedStopPoint
+siri:AffectedStopPoint rdf:type owl:Class ;
+                       rdfs:subClassOf siri:AffectedElement .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AffectedVehicleJourney
+siri:AffectedVehicleJourney rdf:type owl:Class ;
+                            rdfs:subClassOf siri:AffectedElement .
+
+
+###  https://knowledge.c-innovationhub.com/siri#AlertCause
+siri:AlertCause rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#FramedVehicleJourney
+siri:FramedVehicleJourney rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#MonitoredVehicleJourney
+siri:MonitoredVehicleJourney rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#Occupancy
+siri:Occupancy rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#OperationalBlock
+siri:OperationalBlock rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#PtSituationElement
+siri:PtSituationElement rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#Source
+siri:Source rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#SourceType
+siri:SourceType rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#ValidityPeriod
+siri:ValidityPeriod rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#VehicleActivity
+siri:VehicleActivity rdf:type owl:Class .
+
+
+###  https://knowledge.c-innovationhub.com/siri#VerificationStatus
+siri:VerificationStatus rdf:type owl:Class .
+
+
+###  https://w3id.org/mobility/transmodel/journeys#Line
+tmjou:Line rdf:type owl:Class .
+
+
+###  https://w3id.org/mobility/transmodel/organisations#Operator
+tmorg:Operator rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly
+siri:crushedStandingRoomOnly rdf:type owl:NamedIndividual ,
+                                      siri:Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#directReport
+siri:directReport rdf:type owl:NamedIndividual ,
+                           siri:SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#email
+siri:email rdf:type owl:NamedIndividual ,
+                    siri:SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#empty
+siri:empty rdf:type owl:NamedIndividual ,
+                    siri:Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fax
+siri:fax rdf:type owl:NamedIndividual ,
+                  siri:SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#feed
+siri:feed rdf:type owl:NamedIndividual ,
+                   siri:SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fewSeatsAvailable
+siri:fewSeatsAvailable rdf:type owl:NamedIndividual ,
+                                siri:Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#full
+siri:full rdf:type owl:NamedIndividual ,
+                   siri:Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#manySeatsAvailable
+siri:manySeatsAvailable rdf:type owl:NamedIndividual ,
+                                 siri:Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers
+siri:notAcceptingPassengers rdf:type owl:NamedIndividual ,
+                                     siri:Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#other
+siri:other rdf:type owl:NamedIndividual ,
+                    siri:SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#pager
+siri:pager rdf:type owl:NamedIndividual ,
+                    siri:SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#phone
+siri:phone rdf:type owl:NamedIndividual ,
+                    siri:SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#post
+siri:post rdf:type owl:NamedIndividual ,
+                   siri:SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#radio
+siri:radio rdf:type owl:NamedIndividual ,
+                    siri:SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#seatsAvailable
+siri:seatsAvailable rdf:type owl:NamedIndividual ,
+                             siri:Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#standingAvailable
+siri:standingAvailable rdf:type owl:NamedIndividual ,
+                                siri:Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#standingRoomOnly
+siri:standingRoomOnly rdf:type owl:NamedIndividual ,
+                               siri:Occupancy .
+
+
+###  https://knowledge.c-innovationhub.com/siri#text
+siri:text rdf:type owl:NamedIndividual ,
+                   siri:SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#tv
+siri:tv rdf:type owl:NamedIndividual ,
+                 siri:SourceType .
+
+
+###  https://knowledge.c-innovationhub.com/siri#undefined
+siri:undefined rdf:type owl:NamedIndividual ,
+                        siri:Occupancy ,
+                        siri:VerificationStatus .
+
+
+###  https://knowledge.c-innovationhub.com/siri#unknown
+siri:unknown rdf:type owl:NamedIndividual ,
+                      siri:Occupancy ,
+                      siri:VerificationStatus .
+
+
+###  https://knowledge.c-innovationhub.com/siri#unverified
+siri:unverified rdf:type owl:NamedIndividual ,
+                         siri:VerificationStatus .
+
+
+###  https://knowledge.c-innovationhub.com/siri#verified
+siri:verified rdf:type owl:NamedIndividual ,
+                       siri:VerificationStatus .
+
+
+###  https://knowledge.c-innovationhub.com/siri#verifiedAsDuplicate
+siri:verifiedAsDuplicate rdf:type owl:NamedIndividual ,
+                                  siri:VerificationStatus .
+
+
+###  https://knowledge.c-innovationhub.com/siri#web
+siri:web rdf:type owl:NamedIndividual ,
+                  siri:SourceType .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
