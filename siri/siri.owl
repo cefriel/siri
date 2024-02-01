@@ -534,4 +534,920 @@ siri:web rdf:type owl:NamedIndividual ,
                   siri:SourceType .
 
 
+###  https://knowledge.c-innovationhub.com/siri#unknown
+siri:unknown rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#securityAlert
+siri:securityAlert rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#emergencyServicesCall
+siri:emergencyServicesCall rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#policeActivity
+siri:policeActivity rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#policeOrder
+siri:policeOrder rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fire
+siri:fire rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#cableFire
+siri:cableFire rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#smokeDetectedOnVehicle
+siri:smokeDetectedOnVehicle rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fireAtStation
+siri:fireAtStation rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fireRun
+siri:fireRun rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fireBrigadeOrder
+siri:fireBrigadeOrder rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#explosion
+siri:explosion rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#explosionHazard
+siri:explosionHazard rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#bombDisposal
+siri:bombDisposal rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#emergencyMedicalServices
+siri:emergencyMedicalServices rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#emergencyBrake
+siri:emergencyBrake rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vandalism
+siri:vandalism rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#cableTheft
+siri:cableTheft rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#signalPassedAtDanger
+siri:signalPassedAtDanger rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#stationOverrun
+siri:stationOverrun rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#passengersBlockingDoors
+siri:passengersBlockingDoors rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#defectiveSecuritySystem
+siri:defectiveSecuritySystem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#overcrowded
+siri:overcrowded rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#borderControl
+siri:borderControl rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#unattendedBag
+siri:unattendedBag rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#telephonedThreat
+siri:telephonedThreat rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#suspectVehicle
+siri:suspectVehicle rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#evacuation
+siri:evacuation rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#terroristIncident
+siri:terroristIncident rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#publicDisturbance
+siri:publicDisturbance rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#technicalProblem
+siri:technicalProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vehicleFailure
+siri:vehicleFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#serviceDisruption
+siri:serviceDisruption rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#doorFailure
+siri:doorFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#lightingFailure
+siri:lightingFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#pointsProblem
+siri:pointsProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#pointsFailure
+siri:pointsFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#signalProblem
+siri:signalProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#signalFailure
+siri:signalFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#overheadWireFailure
+siri:overheadWireFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#levelCrossingFailure
+siri:levelCrossingFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#trafficManagementSystemFailure
+siri:trafficManagementSystemFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#engineFailure
+siri:engineFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#breakDown
+siri:breakDown rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#repairWork
+siri:repairWork rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#constructionWork
+siri:constructionWork rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#maintenanceWork
+siri:maintenanceWork rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#powerProblem
+siri:powerProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#trackCircuitProblem
+siri:trackCircuitProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#swingBridgeFailure
+siri:swingBridgeFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#escalatorFailure
+siri:escalatorFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#liftFailure
+siri:liftFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#gangwayProblem
+siri:gangwayProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#defectiveVehicle
+siri:defectiveVehicle rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#brokenRail
+siri:brokenRail rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#poorRailConditions
+siri:poorRailConditions rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#deicingWork
+siri:deicingWork rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#wheelProblem
+siri:wheelProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#routeBlockage
+siri:routeBlockage rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#congestion
+siri:congestion rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#heavyTraffic
+siri:heavyTraffic rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#routeDiversion
+siri:routeDiversion rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#roadworks
+siri:roadworks rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#unscheduledConstructionWork
+siri:unscheduledConstructionWork rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#levelCrossingIncident
+siri:levelCrossingIncident rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#sewerageMaintenance
+siri:sewerageMaintenance rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#roadClosed
+siri:roadClosed rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#roadwayDamage
+siri:roadwayDamage rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#bridgeDamage
+siri:bridgeDamage rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#personOnTheLine
+siri:personOnTheLine rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#objectOnTheLine
+siri:objectOnTheLine rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vehicleOnTheLine
+siri:vehicleOnTheLine rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#animalOnTheLine
+siri:animalOnTheLine rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fallenTreeOnTheLine
+siri:fallenTreeOnTheLine rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vegetation
+siri:vegetation rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#speedRestrictions
+siri:speedRestrictions rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#precedingVehicle
+siri:precedingVehicle rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#accident
+siri:accident rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#nearMiss
+siri:nearMiss rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#personHitByVehicle
+siri:personHitByVehicle rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vehicleStruckObject
+siri:vehicleStruckObject rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vehicleStruckAnimal
+siri:vehicleStruckAnimal rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#derailment
+siri:derailment rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#collision
+siri:collision rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#levelCrossingAccident
+siri:levelCrossingAccident rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#poorWeather
+siri:poorWeather rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fog
+siri:fog rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#heavySnowFall
+siri:heavySnowFall rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#heavyRain
+siri:heavyRain rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#strongWinds
+siri:strongWinds rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#ice
+siri:ice rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#hail
+siri:hail rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#highTemperatures
+siri:highTemperatures rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#flooding
+siri:flooding rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#lowWaterLevel
+siri:lowWaterLevel rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#riskOfFlooding
+siri:riskOfFlooding rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#highWaterLevel
+siri:highWaterLevel rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fallenLeaves
+siri:fallenLeaves rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fallenTree
+siri:fallenTree rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#landslide
+siri:landslide rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#riskOfLandslide
+siri:riskOfLandslide rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#driftingSnow
+siri:driftingSnow rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#blizzardConditions
+siri:blizzardConditions rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#stormDamage
+siri:stormDamage rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#lightningStrike
+siri:lightningStrike rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#roughSea
+siri:roughSea rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#highTide
+siri:highTide rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#lowTide
+siri:lowTide rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#iceDrift
+siri:iceDrift rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#avalanches
+siri:avalanches rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#riskOfAvalanches
+siri:riskOfAvalanches rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#flashFloods
+siri:flashFloods rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#mudslide
+siri:mudslide rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#rockfalls
+siri:rockfalls rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#subsidence
+siri:subsidence rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#earthquakeDamage
+siri:earthquakeDamage rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#grassFire
+siri:grassFire rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#wildlandFire
+siri:wildlandFire rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#iceOnRailway
+siri:iceOnRailway rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#iceOnCarriages
+siri:iceOnCarriages rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#specialEvent
+siri:specialEvent rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#procession
+siri:procession rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#demonstration
+siri:demonstration rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#industrialAction
+siri:industrialAction rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#staffSickness
+siri:staffSickness rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#staffAbsence
+siri:staffAbsence rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#operatorCeasedTrading
+siri:operatorCeasedTrading rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#previousDisturbances
+siri:previousDisturbances rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#vehicleBlockingTrack
+siri:vehicleBlockingTrack rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#foreignDisturbances
+siri:foreignDisturbances rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#awaitingShuttle
+siri:awaitingShuttle rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#changeInCarriages
+siri:changeInCarriages rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#trainCoupling
+siri:trainCoupling rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#boardingDelay
+siri:boardingDelay rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#awaitingApproach
+siri:awaitingApproach rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#overtaking
+siri:overtaking rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#provisionDelay
+siri:provisionDelay rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#miscellaneous
+siri:miscellaneous rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#undefinedAlertCause
+siri:undefinedAlertCause rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#incident
+siri:incident rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#safetyViolation
+siri:safetyViolation rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#trainDoor
+siri:trainDoor rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#altercation
+siri:altercation rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#illVehicleOccupants
+siri:illVehicleOccupants rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#serviceFailure
+siri:serviceFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#bombExplosion
+siri:bombExplosion rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fireBrigadeSafetyChecks
+siri:fireBrigadeSafetyChecks rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#civilEmergency
+siri:civilEmergency rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#airRaid
+siri:airRaid rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#sabotage
+siri:sabotage rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#bombAlert
+siri:bombAlert rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#attack
+siri:attack rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#gunfireOnRoadway
+siri:gunfireOnRoadway rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#securityIncident
+siri:securityIncident rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#linesideFire
+siri:linesideFire rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#passengerAction
+siri:passengerAction rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#staffAssault
+siri:staffAssault rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#railwayCrime
+siri:railwayCrime rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#assault
+siri:assault rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#theft
+siri:theft rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fatality
+siri:fatality rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#personUnderTrain
+siri:personUnderTrain rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#personHitByTrain
+siri:personHitByTrain rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#personIllOnVehicle
+siri:personIllOnVehicle rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#emergencyServices
+siri:emergencyServices rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#insufficientDemand
+siri:insufficientDemand rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#leaderBoardFailure
+siri:leaderBoardFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#serviceIndicatorFailure
+siri:serviceIndicatorFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#operatorSuspended
+siri:operatorSuspended rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#problemsAtBorderPost
+siri:problemsAtBorderPost rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#problemsAtCustomsPost
+siri:problemsAtCustomsPost rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#levelCrossingIncident
+siri:levelCrossingIncident rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#trainStruckAnimal
+siri:trainStruckAnimal rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#trainStruckObject
+siri:trainStruckObject rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#roadMaintenance
+siri:roadMaintenance rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#asphalting
+siri:asphalting rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#paving
+siri:paving rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#march
+siri:march rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#filterBlockade
+siri:filterBlockade rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#sightseersObstructingAccess
+siri:sightseersObstructingAccess rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#holiday
+siri:holiday rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#bridgeStrike
+siri:bridgeStrike rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#viaductFailure
+siri:viaductFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#overheadObstruction
+siri:overheadObstruction rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#undefinedProblem
+siri:undefinedProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#logisticProblems
+siri:logisticProblems rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#problemsOnLocalRoad
+siri:problemsOnLocalRoad rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#undefinedProblem
+siri:undefinedProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#staffInjury
+siri:staffInjury rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#contractorStaffInjury
+siri:contractorStaffInjury rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#staffInWrongPlace
+siri:staffInWrongPlace rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#staffShortage
+siri:staffShortage rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#unofficialIndustrialAction
+siri:unofficialIndustrialAction rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#workToRule
+siri:workToRule rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#undefinedPersonnelProblem
+siri:undefinedPersonnelProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#trainWarningSystemProblem
+siri:trainWarningSystemProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#signalAndSwitchFailure
+siri:signalAndSwitchFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#tractionFailure
+siri:tractionFailure rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#defectiveTrain
+siri:defectiveTrain rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#wheelImpactLoad
+siri:wheelImpactLoad rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#lackOfOperationalStock
+siri:lackOfOperationalStock rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#defectiveFireAlarmEquipment
+siri:defectiveFireAlarmEquipment rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#defectivePlatformEdgeDoors
+siri:defectivePlatformEdgeDoors rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#defectiveCctv
+siri:defectiveCctv rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#defectivePublicAnnouncementSystem
+siri:defectivePublicAnnouncementSystem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#ticketingSystemNotAvailable
+siri:ticketingSystemNotAvailable rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#emergencyEngineeringWork
+siri:emergencyEngineeringWork rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#lateFinishToEngineeringWork
+siri:lateFinishToEngineeringWork rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fuelProblem
+siri:fuelProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#closedForMaintenance
+siri:closedForMaintenance rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fuelShortage
+siri:fuelShortage rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#slipperyTrack
+siri:slipperyTrack rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#luggageCarouselProblem
+siri:luggageCarouselProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#undefinedEquipmentProblem
+siri:undefinedEquipmentProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#stormConditions
+siri:stormConditions rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#tidalRestrictions
+siri:tidalRestrictions rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#slipperiness
+siri:slipperiness rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#glazedFrost
+siri:glazedFrost rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#frozen
+siri:frozen rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#sleet
+siri:sleet rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#waterlogged
+siri:waterlogged rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#sewerOverflow
+siri:sewerOverflow rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#undefinedEnvironmentalProblem
+siri:undefinedEnvironmentalProblem rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#fireAtTheStation
+siri:fireAtTheStation rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#breakdown
+siri:breakdown rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#levelCrossingBlocked
+siri:levelCrossingBlocked rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#heavySnowfall
+siri:heavySnowfall rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#waitingForTransferPassengers
+siri:waitingForTransferPassengers rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
+###  https://knowledge.c-innovationhub.com/siri#awaitingOncomingVehicle
+siri:awaitingOncomingVehicle rdf:type owl:NamedIndividual, siri:AlertCause .
+
+
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

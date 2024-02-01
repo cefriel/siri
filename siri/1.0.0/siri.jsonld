@@ -140,6 +140,72 @@
   "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#accident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#airRaid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#altercation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#animalOnTheLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#asphalting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#assault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#attack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#avalanches",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#awaitingApproach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#awaitingOncomingVehicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#awaitingShuttle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#bearing",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -149,6 +215,12 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#blizzardConditions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#blockRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -156,6 +228,120 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#boardingDelay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#bombAlert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#bombDisposal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#bombExplosion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#borderControl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#breakDown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#breakdown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#bridgeDamage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#bridgeStrike",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#brokenRail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#cableFire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#cableTheft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#changeInCarriages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#civilEmergency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#closedForMaintenance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#collision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#congestion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#constructionWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#contractorStaffInjury",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#creationTime",
@@ -191,6 +377,54 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#defectiveCctv",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#defectiveFireAlarmEquipment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#defectivePlatformEdgeDoors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#defectivePublicAnnouncementSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#defectiveSecuritySystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#defectiveTrain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#defectiveVehicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#deicingWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#delay",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -198,6 +432,18 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#duration"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#demonstration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#derailment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#destinationAimedArrivalTime",
@@ -242,10 +488,58 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#doorFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#driftingSnow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#earthquakeDamage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#email",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#emergencyBrake",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#emergencyEngineeringWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#emergencyMedicalServices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#emergencyServices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#emergencyServicesCall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#empty",
@@ -261,6 +555,60 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#engineFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#escalatorFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#evacuation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#explosion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#explosionHazard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fallenLeaves",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fallenTree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fallenTreeOnTheLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fatality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#fax",
@@ -281,10 +629,124 @@
     "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#filterBlockade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fireAtStation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fireAtTheStation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fireBrigadeOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fireBrigadeSafetyChecks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fireRun",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#flashFloods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#flooding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#foreignDisturbances",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#frozen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fuelProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#fuelShortage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#full",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#gangwayProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#glazedFrost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#grassFire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#gunfireOnRoadway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#hail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#hasAffectedElement",
@@ -410,6 +872,168 @@
     "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#heavyRain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#heavySnowFall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#heavySnowfall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#heavyTraffic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#highTemperatures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#highTide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#highWaterLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#holiday",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#ice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#iceDrift",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#iceOnCarriages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#iceOnRailway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#illVehicleOccupants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#incident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#industrialAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#insufficientDemand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#lackOfOperationalStock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#landslide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#lateFinishToEngineeringWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#leaderBoardFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#levelCrossingAccident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#levelCrossingBlocked",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#levelCrossingFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#levelCrossingIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#liftFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#lightingFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#lightningStrike",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#lineRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -419,16 +1043,88 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#linesideFire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#logisticProblems",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#lowTide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#lowWaterLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#luggageCarouselProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#maintenanceWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#manySeatsAvailable",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#march",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#miscellaneous",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#mudslide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#nearMiss",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#objectOnTheLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#operatorCeasedTrading",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#operatorRef",
@@ -438,6 +1134,12 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#operatorSuspended",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#originAimedDepartureTime",
@@ -473,10 +1175,82 @@
     "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#overcrowded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#overheadObstruction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#overheadWireFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#overtaking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#pager",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#passengerAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#passengersBlockingDoors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#paving",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#personHitByTrain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#personHitByVehicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#personIllOnVehicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#personOnTheLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#personUnderTrain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#phone",
@@ -494,10 +1268,100 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#pointsFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#pointsProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#policeActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#policeOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#poorRailConditions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#poorWeather",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#post",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#powerProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#precedingVehicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#previousDisturbances",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#problemsAtBorderPost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#problemsAtCustomsPost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#problemsOnLocalRoad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#procession",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#provisionDelay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#publicDisturbance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#publishedLineName",
@@ -515,6 +1379,12 @@
     "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#railwayCrime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#recordedAtTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -524,10 +1394,238 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#repairWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#riskOfAvalanches",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#riskOfFlooding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#riskOfLandslide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#roadClosed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#roadMaintenance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#roadwayDamage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#roadworks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#rockfalls",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#roughSea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#routeBlockage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#routeDiversion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#sabotage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#safetyViolation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#seatsAvailable",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#securityAlert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#securityIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#serviceDisruption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#serviceFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#serviceIndicatorFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#sewerOverflow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#sewerageMaintenance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#sightseersObstructingAccess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#signalAndSwitchFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#signalFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#signalPassedAtDanger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#signalProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#sleet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#slipperiness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#slipperyTrack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#smokeDetectedOnVehicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#specialEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#speedRestrictions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#staffAbsence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#staffAssault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#staffInWrongPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#staffInjury",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#staffShortage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#staffSickness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#standingAvailable",
@@ -551,6 +1649,12 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#stationOverrun",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#stopPointRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -558,6 +1662,30 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#stormConditions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#stormDamage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#strongWinds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#subsidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#summary",
@@ -569,16 +1697,118 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#suspectVehicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#swingBridgeFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#technicalProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#telephonedThreat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#terroristIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#text",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#theft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#ticketingSystemNotAvailable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#tidalRestrictions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#trackCircuitProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#tractionFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#trafficManagementSystemFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#trainCoupling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#trainDoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#trainStruckAnimal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#trainStruckObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#trainWarningSystemProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#tv",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#unattendedBag",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#undefined",
@@ -589,18 +1819,86 @@
     "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#undefinedAlertCause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#undefinedEnvironmentalProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#undefinedEquipmentProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#undefinedPersonnelProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#undefinedProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#unknown",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  }, {
     "@id" : "https://knowledge.c-innovationhub.com/siri#Occupancy"
   }, {
     "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#unofficialIndustrialAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#unscheduledConstructionWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#unverified",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#vandalism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#vegetation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#vehicleBlockingTrack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#vehicleFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#vehicleJourneyRef",
@@ -621,6 +1919,12 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#vehicleOnTheLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#vehicleRef",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -628,6 +1932,18 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#vehicleStruckAnimal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#vehicleStruckObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#verified",
@@ -642,10 +1958,52 @@
     "@id" : "https://knowledge.c-innovationhub.com/siri#VerificationStatus"
   } ]
 }, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#viaductFailure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#waitingForTransferPassengers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#waterlogged",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
   "@id" : "https://knowledge.c-innovationhub.com/siri#web",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/siri#SourceType"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#wheelImpactLoad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#wheelProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#wildlandFire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/siri#workToRule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/siri#AlertCause"
   } ]
 }, {
   "@id" : "https://w3id.org/mobility/transmodel/journeys#Line",

@@ -693,11 +693,380 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/siri#accident -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#accident">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#airRaid -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#airRaid">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#altercation -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#altercation">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#animalOnTheLine -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#animalOnTheLine">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#asphalting -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#asphalting">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#assault -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#assault">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#attack -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#attack">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#avalanches -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#avalanches">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#awaitingApproach -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#awaitingApproach">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#awaitingOncomingVehicle -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#awaitingOncomingVehicle">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#awaitingShuttle -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#awaitingShuttle">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#blizzardConditions -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#blizzardConditions">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#boardingDelay -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#boardingDelay">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#bombAlert -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#bombAlert">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#bombDisposal -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#bombDisposal">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#bombExplosion -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#bombExplosion">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#borderControl -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#borderControl">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#breakDown -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#breakDown">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#breakdown -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#breakdown">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#bridgeDamage -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#bridgeDamage">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#bridgeStrike -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#bridgeStrike">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#brokenRail -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#brokenRail">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#cableFire -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#cableFire">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#cableTheft -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#cableTheft">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#changeInCarriages -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#changeInCarriages">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#civilEmergency -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#civilEmergency">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#closedForMaintenance -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#closedForMaintenance">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#collision -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#collision">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#congestion -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#congestion">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#constructionWork -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#constructionWork">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#contractorStaffInjury -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#contractorStaffInjury">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly -->
 
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#defectiveCctv -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#defectiveCctv">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#defectiveFireAlarmEquipment -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#defectiveFireAlarmEquipment">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#defectivePlatformEdgeDoors -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#defectivePlatformEdgeDoors">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#defectivePublicAnnouncementSystem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#defectivePublicAnnouncementSystem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#defectiveSecuritySystem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#defectiveSecuritySystem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#defectiveTrain -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#defectiveTrain">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#defectiveVehicle -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#defectiveVehicle">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#deicingWork -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#deicingWork">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#demonstration -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#demonstration">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#derailment -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#derailment">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
     </owl:NamedIndividual>
     
 
@@ -711,6 +1080,33 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/siri#doorFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#doorFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#driftingSnow -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#driftingSnow">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#earthquakeDamage -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#earthquakeDamage">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/siri#email -->
 
 
@@ -720,11 +1116,137 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/siri#emergencyBrake -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#emergencyBrake">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#emergencyEngineeringWork -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#emergencyEngineeringWork">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#emergencyMedicalServices -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#emergencyMedicalServices">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#emergencyServices -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#emergencyServices">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#emergencyServicesCall -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#emergencyServicesCall">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/siri#empty -->
 
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#empty">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#engineFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#engineFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#escalatorFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#escalatorFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#evacuation -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#evacuation">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#explosion -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#explosion">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#explosionHazard -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#explosionHazard">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fallenLeaves -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fallenLeaves">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fallenTree -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fallenTree">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fallenTreeOnTheLine -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fallenTreeOnTheLine">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fatality -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fatality">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
     </owl:NamedIndividual>
     
 
@@ -756,11 +1278,479 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/siri#filterBlockade -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#filterBlockade">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fire -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fire">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fireAtStation -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fireAtStation">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fireAtTheStation -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fireAtTheStation">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fireBrigadeOrder -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fireBrigadeOrder">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fireBrigadeSafetyChecks -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fireBrigadeSafetyChecks">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fireRun -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fireRun">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#flashFloods -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#flashFloods">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#flooding -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#flooding">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fog -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fog">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#foreignDisturbances -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#foreignDisturbances">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#frozen -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#frozen">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fuelProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fuelProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#fuelShortage -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#fuelShortage">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/siri#full -->
 
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#full">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#gangwayProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#gangwayProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#glazedFrost -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#glazedFrost">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#grassFire -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#grassFire">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#gunfireOnRoadway -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#gunfireOnRoadway">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#hail -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#hail">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#heavyRain -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#heavyRain">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#heavySnowFall -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#heavySnowFall">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#heavySnowfall -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#heavySnowfall">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#heavyTraffic -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#heavyTraffic">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#highTemperatures -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#highTemperatures">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#highTide -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#highTide">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#highWaterLevel -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#highWaterLevel">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#holiday -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#holiday">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#ice -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#ice">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#iceDrift -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#iceDrift">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#iceOnCarriages -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#iceOnCarriages">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#iceOnRailway -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#iceOnRailway">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#illVehicleOccupants -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#illVehicleOccupants">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#incident -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#incident">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#industrialAction -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#industrialAction">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#insufficientDemand -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#insufficientDemand">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#lackOfOperationalStock -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#lackOfOperationalStock">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#landslide -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#landslide">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#lateFinishToEngineeringWork -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#lateFinishToEngineeringWork">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#leaderBoardFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#leaderBoardFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#levelCrossingAccident -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#levelCrossingAccident">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#levelCrossingBlocked -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#levelCrossingBlocked">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#levelCrossingFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#levelCrossingFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#levelCrossingIncident -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#levelCrossingIncident">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#liftFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#liftFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#lightingFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#lightingFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#lightningStrike -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#lightningStrike">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#linesideFire -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#linesideFire">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#logisticProblems -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#logisticProblems">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#lowTide -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#lowTide">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#lowWaterLevel -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#lowWaterLevel">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#luggageCarouselProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#luggageCarouselProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#maintenanceWork -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#maintenanceWork">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
     </owl:NamedIndividual>
     
 
@@ -774,11 +1764,74 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/siri#march -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#march">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#miscellaneous -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#miscellaneous">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#mudslide -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#mudslide">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#nearMiss -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#nearMiss">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers -->
 
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#objectOnTheLine -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#objectOnTheLine">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#operatorCeasedTrading -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#operatorCeasedTrading">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#operatorSuspended -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#operatorSuspended">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
     </owl:NamedIndividual>
     
 
@@ -792,11 +1845,119 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/siri#overcrowded -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#overcrowded">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#overheadObstruction -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#overheadObstruction">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#overheadWireFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#overheadWireFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#overtaking -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#overtaking">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/siri#pager -->
 
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#pager">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#passengerAction -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#passengerAction">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#passengersBlockingDoors -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#passengersBlockingDoors">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#paving -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#paving">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#personHitByTrain -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#personHitByTrain">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#personHitByVehicle -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#personHitByVehicle">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#personIllOnVehicle -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#personIllOnVehicle">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#personOnTheLine -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#personOnTheLine">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#personUnderTrain -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#personUnderTrain">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
     </owl:NamedIndividual>
     
 
@@ -810,11 +1971,146 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/siri#pointsFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#pointsFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#pointsProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#pointsProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#policeActivity -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#policeActivity">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#policeOrder -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#policeOrder">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#poorRailConditions -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#poorRailConditions">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#poorWeather -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#poorWeather">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/siri#post -->
 
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#post">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#powerProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#powerProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#precedingVehicle -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#precedingVehicle">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#previousDisturbances -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#previousDisturbances">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#problemsAtBorderPost -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#problemsAtBorderPost">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#problemsAtCustomsPost -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#problemsAtCustomsPost">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#problemsOnLocalRoad -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#problemsOnLocalRoad">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#procession -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#procession">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#provisionDelay -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#provisionDelay">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#publicDisturbance -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#publicDisturbance">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
     </owl:NamedIndividual>
     
 
@@ -828,11 +2124,362 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/siri#railwayCrime -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#railwayCrime">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#repairWork -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#repairWork">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#riskOfAvalanches -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#riskOfAvalanches">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#riskOfFlooding -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#riskOfFlooding">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#riskOfLandslide -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#riskOfLandslide">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#roadClosed -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#roadClosed">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#roadMaintenance -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#roadMaintenance">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#roadwayDamage -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#roadwayDamage">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#roadworks -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#roadworks">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#rockfalls -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#rockfalls">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#roughSea -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#roughSea">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#routeBlockage -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#routeBlockage">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#routeDiversion -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#routeDiversion">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#sabotage -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#sabotage">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#safetyViolation -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#safetyViolation">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/siri#seatsAvailable -->
 
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#seatsAvailable">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#securityAlert -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#securityAlert">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#securityIncident -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#securityIncident">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#serviceDisruption -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#serviceDisruption">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#serviceFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#serviceFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#serviceIndicatorFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#serviceIndicatorFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#sewerOverflow -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#sewerOverflow">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#sewerageMaintenance -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#sewerageMaintenance">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#sightseersObstructingAccess -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#sightseersObstructingAccess">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#signalAndSwitchFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#signalAndSwitchFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#signalFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#signalFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#signalPassedAtDanger -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#signalPassedAtDanger">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#signalProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#signalProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#sleet -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#sleet">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#slipperiness -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#slipperiness">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#slipperyTrack -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#slipperyTrack">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#smokeDetectedOnVehicle -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#smokeDetectedOnVehicle">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#specialEvent -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#specialEvent">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#speedRestrictions -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#speedRestrictions">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#staffAbsence -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#staffAbsence">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#staffAssault -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#staffAssault">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#staffInWrongPlace -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#staffInWrongPlace">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#staffInjury -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#staffInjury">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#staffShortage -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#staffShortage">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#staffSickness -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#staffSickness">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
     </owl:NamedIndividual>
     
 
@@ -855,6 +2502,96 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/siri#stationOverrun -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#stationOverrun">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#stormConditions -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#stormConditions">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#stormDamage -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#stormDamage">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#strongWinds -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#strongWinds">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#subsidence -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#subsidence">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#suspectVehicle -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#suspectVehicle">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#swingBridgeFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#swingBridgeFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#technicalProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#technicalProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#telephonedThreat -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#telephonedThreat">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#terroristIncident -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#terroristIncident">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/siri#text -->
 
 
@@ -864,11 +2601,119 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/siri#theft -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#theft">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#ticketingSystemNotAvailable -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#ticketingSystemNotAvailable">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#tidalRestrictions -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#tidalRestrictions">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#trackCircuitProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#trackCircuitProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#tractionFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#tractionFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#trafficManagementSystemFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#trafficManagementSystemFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#trainCoupling -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#trainCoupling">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#trainDoor -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#trainDoor">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#trainStruckAnimal -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#trainStruckAnimal">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#trainStruckObject -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#trainStruckObject">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#trainWarningSystemProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#trainWarningSystemProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/siri#tv -->
 
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#tv">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#unattendedBag -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#unattendedBag">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
     </owl:NamedIndividual>
     
 
@@ -883,12 +2728,76 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/siri#undefinedAlertCause -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#undefinedAlertCause">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#undefinedEnvironmentalProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#undefinedEnvironmentalProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#undefinedEquipmentProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#undefinedEquipmentProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#undefinedPersonnelProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#undefinedPersonnelProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#undefinedProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#undefinedProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/siri#unknown -->
 
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#unknown">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#Occupancy"/>
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#VerificationStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#unofficialIndustrialAction -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#unofficialIndustrialAction">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#unscheduledConstructionWork -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#unscheduledConstructionWork">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
     </owl:NamedIndividual>
     
 
@@ -898,6 +2807,69 @@
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#unverified">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#VerificationStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#vandalism -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#vandalism">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#vegetation -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#vegetation">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#vehicleBlockingTrack -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#vehicleBlockingTrack">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#vehicleFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#vehicleFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#vehicleOnTheLine -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#vehicleOnTheLine">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#vehicleStruckAnimal -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#vehicleStruckAnimal">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#vehicleStruckObject -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#vehicleStruckObject">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
     </owl:NamedIndividual>
     
 
@@ -920,11 +2892,74 @@
     
 
 
+    <!-- https://knowledge.c-innovationhub.com/siri#viaductFailure -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#viaductFailure">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#waitingForTransferPassengers -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#waitingForTransferPassengers">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#waterlogged -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#waterlogged">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://knowledge.c-innovationhub.com/siri#web -->
 
 
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#web">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#SourceType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#wheelImpactLoad -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#wheelImpactLoad">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#wheelProblem -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#wheelProblem">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#wildlandFire -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#wildlandFire">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/siri#workToRule -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/siri#workToRule">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/siri#AlertCause"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 

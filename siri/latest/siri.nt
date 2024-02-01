@@ -349,21 +349,253 @@
 # #################################################################
 # 
 # 
+# https://knowledge.c-innovationhub.com/siri#accident
+<https://knowledge.c-innovationhub.com/siri#accident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#accident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#airRaid
+<https://knowledge.c-innovationhub.com/siri#airRaid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#airRaid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#altercation
+<https://knowledge.c-innovationhub.com/siri#altercation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#altercation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#animalOnTheLine
+<https://knowledge.c-innovationhub.com/siri#animalOnTheLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#animalOnTheLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#asphalting
+<https://knowledge.c-innovationhub.com/siri#asphalting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#asphalting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#assault
+<https://knowledge.c-innovationhub.com/siri#assault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#assault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#attack
+<https://knowledge.c-innovationhub.com/siri#attack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#attack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#avalanches
+<https://knowledge.c-innovationhub.com/siri#avalanches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#avalanches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#awaitingApproach
+<https://knowledge.c-innovationhub.com/siri#awaitingApproach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#awaitingApproach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#awaitingOncomingVehicle
+<https://knowledge.c-innovationhub.com/siri#awaitingOncomingVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#awaitingOncomingVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#awaitingShuttle
+<https://knowledge.c-innovationhub.com/siri#awaitingShuttle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#awaitingShuttle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#blizzardConditions
+<https://knowledge.c-innovationhub.com/siri#blizzardConditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#blizzardConditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#boardingDelay
+<https://knowledge.c-innovationhub.com/siri#boardingDelay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#boardingDelay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#bombAlert
+<https://knowledge.c-innovationhub.com/siri#bombAlert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#bombAlert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#bombDisposal
+<https://knowledge.c-innovationhub.com/siri#bombDisposal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#bombDisposal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#bombExplosion
+<https://knowledge.c-innovationhub.com/siri#bombExplosion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#bombExplosion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#borderControl
+<https://knowledge.c-innovationhub.com/siri#borderControl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#borderControl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#breakDown
+<https://knowledge.c-innovationhub.com/siri#breakDown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#breakDown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#breakdown
+<https://knowledge.c-innovationhub.com/siri#breakdown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#breakdown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#bridgeDamage
+<https://knowledge.c-innovationhub.com/siri#bridgeDamage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#bridgeDamage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#bridgeStrike
+<https://knowledge.c-innovationhub.com/siri#bridgeStrike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#bridgeStrike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#brokenRail
+<https://knowledge.c-innovationhub.com/siri#brokenRail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#brokenRail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#cableFire
+<https://knowledge.c-innovationhub.com/siri#cableFire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#cableFire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#cableTheft
+<https://knowledge.c-innovationhub.com/siri#cableTheft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#cableTheft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#changeInCarriages
+<https://knowledge.c-innovationhub.com/siri#changeInCarriages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#changeInCarriages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#civilEmergency
+<https://knowledge.c-innovationhub.com/siri#civilEmergency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#civilEmergency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#closedForMaintenance
+<https://knowledge.c-innovationhub.com/siri#closedForMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#closedForMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#collision
+<https://knowledge.c-innovationhub.com/siri#collision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#collision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#congestion
+<https://knowledge.c-innovationhub.com/siri#congestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#congestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#constructionWork
+<https://knowledge.c-innovationhub.com/siri#constructionWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#constructionWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#contractorStaffInjury
+<https://knowledge.c-innovationhub.com/siri#contractorStaffInjury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#contractorStaffInjury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
 # https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly
 <https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#crushedStandingRoomOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#defectiveCctv
+<https://knowledge.c-innovationhub.com/siri#defectiveCctv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#defectiveCctv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#defectiveFireAlarmEquipment
+<https://knowledge.c-innovationhub.com/siri#defectiveFireAlarmEquipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#defectiveFireAlarmEquipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#defectivePlatformEdgeDoors
+<https://knowledge.c-innovationhub.com/siri#defectivePlatformEdgeDoors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#defectivePlatformEdgeDoors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#defectivePublicAnnouncementSystem
+<https://knowledge.c-innovationhub.com/siri#defectivePublicAnnouncementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#defectivePublicAnnouncementSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#defectiveSecuritySystem
+<https://knowledge.c-innovationhub.com/siri#defectiveSecuritySystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#defectiveSecuritySystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#defectiveTrain
+<https://knowledge.c-innovationhub.com/siri#defectiveTrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#defectiveTrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#defectiveVehicle
+<https://knowledge.c-innovationhub.com/siri#defectiveVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#defectiveVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#deicingWork
+<https://knowledge.c-innovationhub.com/siri#deicingWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#deicingWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#demonstration
+<https://knowledge.c-innovationhub.com/siri#demonstration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#demonstration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#derailment
+<https://knowledge.c-innovationhub.com/siri#derailment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#derailment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
 # 
 # https://knowledge.c-innovationhub.com/siri#directReport
 <https://knowledge.c-innovationhub.com/siri#directReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#directReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
 # 
+# https://knowledge.c-innovationhub.com/siri#doorFailure
+<https://knowledge.c-innovationhub.com/siri#doorFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#doorFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#driftingSnow
+<https://knowledge.c-innovationhub.com/siri#driftingSnow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#driftingSnow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#earthquakeDamage
+<https://knowledge.c-innovationhub.com/siri#earthquakeDamage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#earthquakeDamage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
 # https://knowledge.c-innovationhub.com/siri#email
 <https://knowledge.c-innovationhub.com/siri#email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
 # 
+# https://knowledge.c-innovationhub.com/siri#emergencyBrake
+<https://knowledge.c-innovationhub.com/siri#emergencyBrake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#emergencyBrake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#emergencyEngineeringWork
+<https://knowledge.c-innovationhub.com/siri#emergencyEngineeringWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#emergencyEngineeringWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#emergencyMedicalServices
+<https://knowledge.c-innovationhub.com/siri#emergencyMedicalServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#emergencyMedicalServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#emergencyServices
+<https://knowledge.c-innovationhub.com/siri#emergencyServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#emergencyServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#emergencyServicesCall
+<https://knowledge.c-innovationhub.com/siri#emergencyServicesCall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#emergencyServicesCall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
 # https://knowledge.c-innovationhub.com/siri#empty
 <https://knowledge.c-innovationhub.com/siri#empty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#empty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#engineFailure
+<https://knowledge.c-innovationhub.com/siri#engineFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#engineFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#escalatorFailure
+<https://knowledge.c-innovationhub.com/siri#escalatorFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#escalatorFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#evacuation
+<https://knowledge.c-innovationhub.com/siri#evacuation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#evacuation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#explosion
+<https://knowledge.c-innovationhub.com/siri#explosion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#explosion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#explosionHazard
+<https://knowledge.c-innovationhub.com/siri#explosionHazard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#explosionHazard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fallenLeaves
+<https://knowledge.c-innovationhub.com/siri#fallenLeaves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fallenLeaves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fallenTree
+<https://knowledge.c-innovationhub.com/siri#fallenTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fallenTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fallenTreeOnTheLine
+<https://knowledge.c-innovationhub.com/siri#fallenTreeOnTheLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fallenTreeOnTheLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fatality
+<https://knowledge.c-innovationhub.com/siri#fatality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fatality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
 # 
 # https://knowledge.c-innovationhub.com/siri#fax
 <https://knowledge.c-innovationhub.com/siri#fax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -377,41 +609,541 @@
 <https://knowledge.c-innovationhub.com/siri#fewSeatsAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#fewSeatsAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
 # 
+# https://knowledge.c-innovationhub.com/siri#filterBlockade
+<https://knowledge.c-innovationhub.com/siri#filterBlockade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#filterBlockade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fire
+<https://knowledge.c-innovationhub.com/siri#fire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fireAtStation
+<https://knowledge.c-innovationhub.com/siri#fireAtStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fireAtStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fireAtTheStation
+<https://knowledge.c-innovationhub.com/siri#fireAtTheStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fireAtTheStation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fireBrigadeOrder
+<https://knowledge.c-innovationhub.com/siri#fireBrigadeOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fireBrigadeOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fireBrigadeSafetyChecks
+<https://knowledge.c-innovationhub.com/siri#fireBrigadeSafetyChecks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fireBrigadeSafetyChecks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fireRun
+<https://knowledge.c-innovationhub.com/siri#fireRun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fireRun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#flashFloods
+<https://knowledge.c-innovationhub.com/siri#flashFloods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#flashFloods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#flooding
+<https://knowledge.c-innovationhub.com/siri#flooding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#flooding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fog
+<https://knowledge.c-innovationhub.com/siri#fog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#foreignDisturbances
+<https://knowledge.c-innovationhub.com/siri#foreignDisturbances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#foreignDisturbances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#frozen
+<https://knowledge.c-innovationhub.com/siri#frozen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#frozen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fuelProblem
+<https://knowledge.c-innovationhub.com/siri#fuelProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fuelProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#fuelShortage
+<https://knowledge.c-innovationhub.com/siri#fuelShortage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#fuelShortage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
 # https://knowledge.c-innovationhub.com/siri#full
 <https://knowledge.c-innovationhub.com/siri#full> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#full> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#gangwayProblem
+<https://knowledge.c-innovationhub.com/siri#gangwayProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#gangwayProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#glazedFrost
+<https://knowledge.c-innovationhub.com/siri#glazedFrost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#glazedFrost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#grassFire
+<https://knowledge.c-innovationhub.com/siri#grassFire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#grassFire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#gunfireOnRoadway
+<https://knowledge.c-innovationhub.com/siri#gunfireOnRoadway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#gunfireOnRoadway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#hail
+<https://knowledge.c-innovationhub.com/siri#hail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#hail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#heavyRain
+<https://knowledge.c-innovationhub.com/siri#heavyRain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#heavyRain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#heavySnowFall
+<https://knowledge.c-innovationhub.com/siri#heavySnowFall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#heavySnowFall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#heavySnowfall
+<https://knowledge.c-innovationhub.com/siri#heavySnowfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#heavySnowfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#heavyTraffic
+<https://knowledge.c-innovationhub.com/siri#heavyTraffic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#heavyTraffic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#highTemperatures
+<https://knowledge.c-innovationhub.com/siri#highTemperatures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#highTemperatures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#highTide
+<https://knowledge.c-innovationhub.com/siri#highTide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#highTide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#highWaterLevel
+<https://knowledge.c-innovationhub.com/siri#highWaterLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#highWaterLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#holiday
+<https://knowledge.c-innovationhub.com/siri#holiday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#holiday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#ice
+<https://knowledge.c-innovationhub.com/siri#ice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#ice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#iceDrift
+<https://knowledge.c-innovationhub.com/siri#iceDrift> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#iceDrift> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#iceOnCarriages
+<https://knowledge.c-innovationhub.com/siri#iceOnCarriages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#iceOnCarriages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#iceOnRailway
+<https://knowledge.c-innovationhub.com/siri#iceOnRailway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#iceOnRailway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#illVehicleOccupants
+<https://knowledge.c-innovationhub.com/siri#illVehicleOccupants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#illVehicleOccupants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#incident
+<https://knowledge.c-innovationhub.com/siri#incident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#incident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#industrialAction
+<https://knowledge.c-innovationhub.com/siri#industrialAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#industrialAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#insufficientDemand
+<https://knowledge.c-innovationhub.com/siri#insufficientDemand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#insufficientDemand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#lackOfOperationalStock
+<https://knowledge.c-innovationhub.com/siri#lackOfOperationalStock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#lackOfOperationalStock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#landslide
+<https://knowledge.c-innovationhub.com/siri#landslide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#landslide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#lateFinishToEngineeringWork
+<https://knowledge.c-innovationhub.com/siri#lateFinishToEngineeringWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#lateFinishToEngineeringWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#leaderBoardFailure
+<https://knowledge.c-innovationhub.com/siri#leaderBoardFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#leaderBoardFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#levelCrossingAccident
+<https://knowledge.c-innovationhub.com/siri#levelCrossingAccident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#levelCrossingAccident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#levelCrossingBlocked
+<https://knowledge.c-innovationhub.com/siri#levelCrossingBlocked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#levelCrossingBlocked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#levelCrossingFailure
+<https://knowledge.c-innovationhub.com/siri#levelCrossingFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#levelCrossingFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#levelCrossingIncident
+<https://knowledge.c-innovationhub.com/siri#levelCrossingIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#levelCrossingIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#liftFailure
+<https://knowledge.c-innovationhub.com/siri#liftFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#liftFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#lightingFailure
+<https://knowledge.c-innovationhub.com/siri#lightingFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#lightingFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#lightningStrike
+<https://knowledge.c-innovationhub.com/siri#lightningStrike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#lightningStrike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#linesideFire
+<https://knowledge.c-innovationhub.com/siri#linesideFire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#linesideFire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#logisticProblems
+<https://knowledge.c-innovationhub.com/siri#logisticProblems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#logisticProblems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#lowTide
+<https://knowledge.c-innovationhub.com/siri#lowTide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#lowTide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#lowWaterLevel
+<https://knowledge.c-innovationhub.com/siri#lowWaterLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#lowWaterLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#luggageCarouselProblem
+<https://knowledge.c-innovationhub.com/siri#luggageCarouselProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#luggageCarouselProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#maintenanceWork
+<https://knowledge.c-innovationhub.com/siri#maintenanceWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#maintenanceWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
 # 
 # https://knowledge.c-innovationhub.com/siri#manySeatsAvailable
 <https://knowledge.c-innovationhub.com/siri#manySeatsAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#manySeatsAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
 # 
+# https://knowledge.c-innovationhub.com/siri#march
+<https://knowledge.c-innovationhub.com/siri#march> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#march> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#miscellaneous
+<https://knowledge.c-innovationhub.com/siri#miscellaneous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#miscellaneous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#mudslide
+<https://knowledge.c-innovationhub.com/siri#mudslide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#mudslide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#nearMiss
+<https://knowledge.c-innovationhub.com/siri#nearMiss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#nearMiss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
 # https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers
 <https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#notAcceptingPassengers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#objectOnTheLine
+<https://knowledge.c-innovationhub.com/siri#objectOnTheLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#objectOnTheLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#operatorCeasedTrading
+<https://knowledge.c-innovationhub.com/siri#operatorCeasedTrading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#operatorCeasedTrading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#operatorSuspended
+<https://knowledge.c-innovationhub.com/siri#operatorSuspended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#operatorSuspended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
 # 
 # https://knowledge.c-innovationhub.com/siri#other
 <https://knowledge.c-innovationhub.com/siri#other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
 # 
+# https://knowledge.c-innovationhub.com/siri#overcrowded
+<https://knowledge.c-innovationhub.com/siri#overcrowded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#overcrowded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#overheadObstruction
+<https://knowledge.c-innovationhub.com/siri#overheadObstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#overheadObstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#overheadWireFailure
+<https://knowledge.c-innovationhub.com/siri#overheadWireFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#overheadWireFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#overtaking
+<https://knowledge.c-innovationhub.com/siri#overtaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#overtaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
 # https://knowledge.c-innovationhub.com/siri#pager
 <https://knowledge.c-innovationhub.com/siri#pager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#pager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#passengerAction
+<https://knowledge.c-innovationhub.com/siri#passengerAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#passengerAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#passengersBlockingDoors
+<https://knowledge.c-innovationhub.com/siri#passengersBlockingDoors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#passengersBlockingDoors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#paving
+<https://knowledge.c-innovationhub.com/siri#paving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#paving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#personHitByTrain
+<https://knowledge.c-innovationhub.com/siri#personHitByTrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#personHitByTrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#personHitByVehicle
+<https://knowledge.c-innovationhub.com/siri#personHitByVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#personHitByVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#personIllOnVehicle
+<https://knowledge.c-innovationhub.com/siri#personIllOnVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#personIllOnVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#personOnTheLine
+<https://knowledge.c-innovationhub.com/siri#personOnTheLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#personOnTheLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#personUnderTrain
+<https://knowledge.c-innovationhub.com/siri#personUnderTrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#personUnderTrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
 # 
 # https://knowledge.c-innovationhub.com/siri#phone
 <https://knowledge.c-innovationhub.com/siri#phone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#phone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
 # 
+# https://knowledge.c-innovationhub.com/siri#pointsFailure
+<https://knowledge.c-innovationhub.com/siri#pointsFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#pointsFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#pointsProblem
+<https://knowledge.c-innovationhub.com/siri#pointsProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#pointsProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#policeActivity
+<https://knowledge.c-innovationhub.com/siri#policeActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#policeActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#policeOrder
+<https://knowledge.c-innovationhub.com/siri#policeOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#policeOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#poorRailConditions
+<https://knowledge.c-innovationhub.com/siri#poorRailConditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#poorRailConditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#poorWeather
+<https://knowledge.c-innovationhub.com/siri#poorWeather> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#poorWeather> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
 # https://knowledge.c-innovationhub.com/siri#post
 <https://knowledge.c-innovationhub.com/siri#post> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#post> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#powerProblem
+<https://knowledge.c-innovationhub.com/siri#powerProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#powerProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#precedingVehicle
+<https://knowledge.c-innovationhub.com/siri#precedingVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#precedingVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#previousDisturbances
+<https://knowledge.c-innovationhub.com/siri#previousDisturbances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#previousDisturbances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#problemsAtBorderPost
+<https://knowledge.c-innovationhub.com/siri#problemsAtBorderPost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#problemsAtBorderPost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#problemsAtCustomsPost
+<https://knowledge.c-innovationhub.com/siri#problemsAtCustomsPost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#problemsAtCustomsPost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#problemsOnLocalRoad
+<https://knowledge.c-innovationhub.com/siri#problemsOnLocalRoad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#problemsOnLocalRoad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#procession
+<https://knowledge.c-innovationhub.com/siri#procession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#procession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#provisionDelay
+<https://knowledge.c-innovationhub.com/siri#provisionDelay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#provisionDelay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#publicDisturbance
+<https://knowledge.c-innovationhub.com/siri#publicDisturbance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#publicDisturbance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
 # 
 # https://knowledge.c-innovationhub.com/siri#radio
 <https://knowledge.c-innovationhub.com/siri#radio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#radio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
 # 
+# https://knowledge.c-innovationhub.com/siri#railwayCrime
+<https://knowledge.c-innovationhub.com/siri#railwayCrime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#railwayCrime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#repairWork
+<https://knowledge.c-innovationhub.com/siri#repairWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#repairWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#riskOfAvalanches
+<https://knowledge.c-innovationhub.com/siri#riskOfAvalanches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#riskOfAvalanches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#riskOfFlooding
+<https://knowledge.c-innovationhub.com/siri#riskOfFlooding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#riskOfFlooding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#riskOfLandslide
+<https://knowledge.c-innovationhub.com/siri#riskOfLandslide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#riskOfLandslide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#roadClosed
+<https://knowledge.c-innovationhub.com/siri#roadClosed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#roadClosed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#roadMaintenance
+<https://knowledge.c-innovationhub.com/siri#roadMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#roadMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#roadwayDamage
+<https://knowledge.c-innovationhub.com/siri#roadwayDamage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#roadwayDamage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#roadworks
+<https://knowledge.c-innovationhub.com/siri#roadworks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#roadworks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#rockfalls
+<https://knowledge.c-innovationhub.com/siri#rockfalls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#rockfalls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#roughSea
+<https://knowledge.c-innovationhub.com/siri#roughSea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#roughSea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#routeBlockage
+<https://knowledge.c-innovationhub.com/siri#routeBlockage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#routeBlockage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#routeDiversion
+<https://knowledge.c-innovationhub.com/siri#routeDiversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#routeDiversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#sabotage
+<https://knowledge.c-innovationhub.com/siri#sabotage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#sabotage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#safetyViolation
+<https://knowledge.c-innovationhub.com/siri#safetyViolation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#safetyViolation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
 # https://knowledge.c-innovationhub.com/siri#seatsAvailable
 <https://knowledge.c-innovationhub.com/siri#seatsAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#seatsAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
+# 
+# https://knowledge.c-innovationhub.com/siri#securityAlert
+<https://knowledge.c-innovationhub.com/siri#securityAlert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#securityAlert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#securityIncident
+<https://knowledge.c-innovationhub.com/siri#securityIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#securityIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#serviceDisruption
+<https://knowledge.c-innovationhub.com/siri#serviceDisruption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#serviceDisruption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#serviceFailure
+<https://knowledge.c-innovationhub.com/siri#serviceFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#serviceFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#serviceIndicatorFailure
+<https://knowledge.c-innovationhub.com/siri#serviceIndicatorFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#serviceIndicatorFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#sewerOverflow
+<https://knowledge.c-innovationhub.com/siri#sewerOverflow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#sewerOverflow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#sewerageMaintenance
+<https://knowledge.c-innovationhub.com/siri#sewerageMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#sewerageMaintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#sightseersObstructingAccess
+<https://knowledge.c-innovationhub.com/siri#sightseersObstructingAccess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#sightseersObstructingAccess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#signalAndSwitchFailure
+<https://knowledge.c-innovationhub.com/siri#signalAndSwitchFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#signalAndSwitchFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#signalFailure
+<https://knowledge.c-innovationhub.com/siri#signalFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#signalFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#signalPassedAtDanger
+<https://knowledge.c-innovationhub.com/siri#signalPassedAtDanger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#signalPassedAtDanger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#signalProblem
+<https://knowledge.c-innovationhub.com/siri#signalProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#signalProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#sleet
+<https://knowledge.c-innovationhub.com/siri#sleet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#sleet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#slipperiness
+<https://knowledge.c-innovationhub.com/siri#slipperiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#slipperiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#slipperyTrack
+<https://knowledge.c-innovationhub.com/siri#slipperyTrack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#slipperyTrack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#smokeDetectedOnVehicle
+<https://knowledge.c-innovationhub.com/siri#smokeDetectedOnVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#smokeDetectedOnVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#specialEvent
+<https://knowledge.c-innovationhub.com/siri#specialEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#specialEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#speedRestrictions
+<https://knowledge.c-innovationhub.com/siri#speedRestrictions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#speedRestrictions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#staffAbsence
+<https://knowledge.c-innovationhub.com/siri#staffAbsence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#staffAbsence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#staffAssault
+<https://knowledge.c-innovationhub.com/siri#staffAssault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#staffAssault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#staffInWrongPlace
+<https://knowledge.c-innovationhub.com/siri#staffInWrongPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#staffInWrongPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#staffInjury
+<https://knowledge.c-innovationhub.com/siri#staffInjury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#staffInjury> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#staffShortage
+<https://knowledge.c-innovationhub.com/siri#staffShortage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#staffShortage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#staffSickness
+<https://knowledge.c-innovationhub.com/siri#staffSickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#staffSickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
 # 
 # https://knowledge.c-innovationhub.com/siri#standingAvailable
 <https://knowledge.c-innovationhub.com/siri#standingAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -421,27 +1153,172 @@
 <https://knowledge.c-innovationhub.com/siri#standingRoomOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#standingRoomOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
 # 
+# https://knowledge.c-innovationhub.com/siri#stationOverrun
+<https://knowledge.c-innovationhub.com/siri#stationOverrun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#stationOverrun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#stormConditions
+<https://knowledge.c-innovationhub.com/siri#stormConditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#stormConditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#stormDamage
+<https://knowledge.c-innovationhub.com/siri#stormDamage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#stormDamage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#strongWinds
+<https://knowledge.c-innovationhub.com/siri#strongWinds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#strongWinds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#subsidence
+<https://knowledge.c-innovationhub.com/siri#subsidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#subsidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#suspectVehicle
+<https://knowledge.c-innovationhub.com/siri#suspectVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#suspectVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#swingBridgeFailure
+<https://knowledge.c-innovationhub.com/siri#swingBridgeFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#swingBridgeFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#technicalProblem
+<https://knowledge.c-innovationhub.com/siri#technicalProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#technicalProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#telephonedThreat
+<https://knowledge.c-innovationhub.com/siri#telephonedThreat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#telephonedThreat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#terroristIncident
+<https://knowledge.c-innovationhub.com/siri#terroristIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#terroristIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
 # https://knowledge.c-innovationhub.com/siri#text
 <https://knowledge.c-innovationhub.com/siri#text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
 # 
+# https://knowledge.c-innovationhub.com/siri#theft
+<https://knowledge.c-innovationhub.com/siri#theft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#theft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#ticketingSystemNotAvailable
+<https://knowledge.c-innovationhub.com/siri#ticketingSystemNotAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#ticketingSystemNotAvailable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#tidalRestrictions
+<https://knowledge.c-innovationhub.com/siri#tidalRestrictions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#tidalRestrictions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#trackCircuitProblem
+<https://knowledge.c-innovationhub.com/siri#trackCircuitProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#trackCircuitProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#tractionFailure
+<https://knowledge.c-innovationhub.com/siri#tractionFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#tractionFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#trafficManagementSystemFailure
+<https://knowledge.c-innovationhub.com/siri#trafficManagementSystemFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#trafficManagementSystemFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#trainCoupling
+<https://knowledge.c-innovationhub.com/siri#trainCoupling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#trainCoupling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#trainDoor
+<https://knowledge.c-innovationhub.com/siri#trainDoor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#trainDoor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#trainStruckAnimal
+<https://knowledge.c-innovationhub.com/siri#trainStruckAnimal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#trainStruckAnimal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#trainStruckObject
+<https://knowledge.c-innovationhub.com/siri#trainStruckObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#trainStruckObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#trainWarningSystemProblem
+<https://knowledge.c-innovationhub.com/siri#trainWarningSystemProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#trainWarningSystemProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
 # https://knowledge.c-innovationhub.com/siri#tv
 <https://knowledge.c-innovationhub.com/siri#tv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#tv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#unattendedBag
+<https://knowledge.c-innovationhub.com/siri#unattendedBag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#unattendedBag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
 # 
 # https://knowledge.c-innovationhub.com/siri#undefined
 <https://knowledge.c-innovationhub.com/siri#undefined> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#undefined> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
 <https://knowledge.c-innovationhub.com/siri#undefined> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#VerificationStatus> .
 # 
+# https://knowledge.c-innovationhub.com/siri#undefinedAlertCause
+<https://knowledge.c-innovationhub.com/siri#undefinedAlertCause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#undefinedAlertCause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#undefinedEnvironmentalProblem
+<https://knowledge.c-innovationhub.com/siri#undefinedEnvironmentalProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#undefinedEnvironmentalProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#undefinedEquipmentProblem
+<https://knowledge.c-innovationhub.com/siri#undefinedEquipmentProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#undefinedEquipmentProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#undefinedPersonnelProblem
+<https://knowledge.c-innovationhub.com/siri#undefinedPersonnelProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#undefinedPersonnelProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#undefinedProblem
+<https://knowledge.c-innovationhub.com/siri#undefinedProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#undefinedProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
 # https://knowledge.c-innovationhub.com/siri#unknown
 <https://knowledge.c-innovationhub.com/siri#unknown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#unknown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
 <https://knowledge.c-innovationhub.com/siri#unknown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#Occupancy> .
 <https://knowledge.c-innovationhub.com/siri#unknown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#VerificationStatus> .
+# 
+# https://knowledge.c-innovationhub.com/siri#unofficialIndustrialAction
+<https://knowledge.c-innovationhub.com/siri#unofficialIndustrialAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#unofficialIndustrialAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#unscheduledConstructionWork
+<https://knowledge.c-innovationhub.com/siri#unscheduledConstructionWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#unscheduledConstructionWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
 # 
 # https://knowledge.c-innovationhub.com/siri#unverified
 <https://knowledge.c-innovationhub.com/siri#unverified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#unverified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#VerificationStatus> .
+# 
+# https://knowledge.c-innovationhub.com/siri#vandalism
+<https://knowledge.c-innovationhub.com/siri#vandalism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#vandalism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#vegetation
+<https://knowledge.c-innovationhub.com/siri#vegetation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#vegetation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#vehicleBlockingTrack
+<https://knowledge.c-innovationhub.com/siri#vehicleBlockingTrack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#vehicleBlockingTrack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#vehicleFailure
+<https://knowledge.c-innovationhub.com/siri#vehicleFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#vehicleFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#vehicleOnTheLine
+<https://knowledge.c-innovationhub.com/siri#vehicleOnTheLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#vehicleOnTheLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#vehicleStruckAnimal
+<https://knowledge.c-innovationhub.com/siri#vehicleStruckAnimal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#vehicleStruckAnimal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#vehicleStruckObject
+<https://knowledge.c-innovationhub.com/siri#vehicleStruckObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#vehicleStruckObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
 # 
 # https://knowledge.c-innovationhub.com/siri#verified
 <https://knowledge.c-innovationhub.com/siri#verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -451,8 +1328,36 @@
 <https://knowledge.c-innovationhub.com/siri#verifiedAsDuplicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#verifiedAsDuplicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#VerificationStatus> .
 # 
+# https://knowledge.c-innovationhub.com/siri#viaductFailure
+<https://knowledge.c-innovationhub.com/siri#viaductFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#viaductFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#waitingForTransferPassengers
+<https://knowledge.c-innovationhub.com/siri#waitingForTransferPassengers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#waitingForTransferPassengers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#waterlogged
+<https://knowledge.c-innovationhub.com/siri#waterlogged> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#waterlogged> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
 # https://knowledge.c-innovationhub.com/siri#web
 <https://knowledge.c-innovationhub.com/siri#web> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/siri#web> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#SourceType> .
+# 
+# https://knowledge.c-innovationhub.com/siri#wheelImpactLoad
+<https://knowledge.c-innovationhub.com/siri#wheelImpactLoad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#wheelImpactLoad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#wheelProblem
+<https://knowledge.c-innovationhub.com/siri#wheelProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#wheelProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#wildlandFire
+<https://knowledge.c-innovationhub.com/siri#wildlandFire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#wildlandFire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
+# 
+# https://knowledge.c-innovationhub.com/siri#workToRule
+<https://knowledge.c-innovationhub.com/siri#workToRule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/siri#workToRule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/siri#AlertCause> .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
